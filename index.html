@@ -1,9 +1,36 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Mallory</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mallory Willyerd">
+    <meta name="description" content="This site is a home page for assignments in WDD 230">
+    <title>Mallory Willyerd Home Page</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+        var x = newDate(document.lastModified);
+        document.querySelector('#last-modified').innerText = x;
+    </script>
 </head>
-<body>
- <h1>Hi! I'm Mallory</h1>
-</body>
-</html>  
+
+<main class="card">
+<header>
+    <h1>
+        Mallory Willyerd
+    </h1>
+</header>
+<section>
+    <img src="headshot.JPG" alt="headshot" class="profile-img">
+    <h2>Assignment Portal</h2>
+    <h3>Week 1</h3> <a href="https://www.byui.edu/online"><p>Assignment Link</p></a>
+    <h3>Week 2</h3> <a href="https://www.byui.edu/online"></a><p>Assignment Link</p></a>
+    <h3>Week 3</h3> <a href="https://www.byui.edu/online"></a><p>Assignment Link</p></a>
+</section>
+<footer>
+    <p>© <span id="copyright-year">2020</span> | Mallory Willyerd | <a href="https://www.byui.edu/online">BYUI Online Learning </a> </p>
+    <p>Last modified: <span id="last-modified">04/23/2021 11:04:24</span> </p>
+</footer>
+</main>
+
+</html>
