@@ -7,7 +7,7 @@ main {
 }
 
 header {
-    background-color: #87bcc5;
+    background-color: hsl(189, 35%, 65%);
     border-radius: 20px 20px 10px 10px;
     margin: -11px;
     padding: 1px;
@@ -30,7 +30,7 @@ section {
 }
 
 footer {
-    background-color: #245733;
+    background-color: hsl(189, 35%, 65%);
     margin: -11px;
     padding: 4px;
     border-radius: 0px 0px 20px 20px;
