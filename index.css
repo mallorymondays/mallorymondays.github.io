@@ -10,6 +10,7 @@ header,footer {
     border-radius: 25px;
     padding: 0.5rem;
     text-align: center;
+    display: block;
   
 }
 
@@ -18,7 +19,11 @@ body {
     font-family: Geneva, Verdana, sans-serif;
     background-color:white;
     display: block;
-    margin: 8px; 
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px; 
     
 }
 ul {
@@ -31,31 +36,9 @@ ul {
     padding-inline-start: 40px;
 }
 
-h1 {
-    font-family: "Tahoma", Geneva, sans-serif;
-    font-size: 45px;
-}
-
-h2 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 25px;
-}
-
-h3 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 15px;
-}
-
-p {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 12px;
-    padding-left: 8px;
-}
 
 .profile-img {
-    width: 110px;
     float: right;
-    margin: 10px;
-    border-radius: 8px;
-    
+    width: 150px;
+    height: auto;
 }
