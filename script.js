@@ -1,2 +1,3 @@
 let y = new Date();
-document.getElementById ("year").textContent="hellos";
+let year =y.getFullYear();
+document.getElementById ("year").textContent= y;
