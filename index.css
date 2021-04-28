@@ -17,8 +17,9 @@ header,footer {
   
 }
     h1 {
-        font-size: 2em;
+        font-size: 3em;
         margin: 0.67em 0;
+        font-weight: bold;
     }
 
     h2 {
@@ -34,7 +35,7 @@ header,footer {
         font-weight: bold;
     }
 body {
-    font-size: 16px;
+    font-size: 25px;
     background-color:white;
     display: block;
     margin: 8px;
