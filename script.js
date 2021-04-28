@@ -1,0 +1,1 @@
+document.getElementById ("copyright-year").textContent="hello"
