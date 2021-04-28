@@ -7,11 +7,12 @@ main {
 }
 
 header,footer {
-    background-color: hsl(189, 35%, 65%);
+    background-color: hsl(161, 50%, 23%);
     border-radius: 25px;
     padding: 0.5rem;
     text-align: center;
     display: block;
+    color: white
     
   
 }
