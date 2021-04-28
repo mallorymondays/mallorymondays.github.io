@@ -3,6 +3,7 @@ main {
     margin: auto;
     max-width: 750px;
     display: block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 header,footer {
@@ -11,6 +12,7 @@ header,footer {
     padding: 0.5rem;
     text-align: center;
     display: block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
   
 }
     h1 {
