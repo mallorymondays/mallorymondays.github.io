@@ -35,7 +35,7 @@ header,footer {
         font-weight: bold;
     }
 body {
-    font-size: 25px;
+    font-size: 16.3px;
     background-color:white;
     display: block;
     margin: 8px;
@@ -74,7 +74,8 @@ hr {
     float: right;
     border-radius: 10px;
     width: 10em;
+    height: 10.5em ;
 }
 a {
-    color: rgb(64, 139, 98);
+    color: rgb(55, 126, 87);
   }
