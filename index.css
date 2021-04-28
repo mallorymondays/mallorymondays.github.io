@@ -12,7 +12,7 @@ header,footer {
     padding: 0.5rem;
     text-align: center;
     display: block;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
   
 }
     h1 {
@@ -72,6 +72,5 @@ hr {
 .profile-img {
     float: right;
     border-radius: 10px;
-    box-shadow: 0 0 30px #444;
     width: 10em;
 }
