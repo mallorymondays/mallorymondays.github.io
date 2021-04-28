@@ -1,1 +1,1 @@
-document.getElementById ("year").textContent="hello";
+document.getElementById ("year").textContent="hellos";
