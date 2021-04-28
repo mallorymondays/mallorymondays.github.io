@@ -3,7 +3,8 @@ main {
     margin: auto;
     max-width: 750px;
     display: block;
-    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
 header,footer {
     background-color: hsl(189, 35%, 65%);
@@ -11,18 +12,16 @@ header,footer {
     padding: 0.5rem;
     text-align: center;
     display: block;
-    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
   
 }
     h1 {
         font-size: 2em;
         margin: 0.67em 0;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
     }
 
     h2 {
         font-size: 1.5rem;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
     }
     h2 {
         display: block;
@@ -35,6 +34,7 @@ header,footer {
     }
 body {
     font-size: 16px;
+    font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
     background-color:white;
     display: block;
     margin: 8px;
@@ -52,7 +52,6 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-    font-size: 25px;
 }
 hr {
     border-width: 1px;
@@ -73,5 +72,6 @@ hr {
 .profile-img {
     float: right;
     border-radius: 10px;
+    box-shadow: 0 0 30px #444;
     width: 10em;
 }
