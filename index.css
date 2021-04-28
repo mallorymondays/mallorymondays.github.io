@@ -32,7 +32,7 @@ header,footer {
     }
 body {
     font-size: 16px;
-    font-family: Geneva, Verdana, sans-serif;
+    font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
     background-color:white;
     display: block;
     margin: 8px;
