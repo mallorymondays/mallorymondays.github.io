@@ -55,10 +55,10 @@ hr {
 .profileimg {
     float: right;
     border-radius: 20px;
-  margin-top: -15px;
-  margin-right: 20px;
-    width: 210px;
-    height: 214px ;
+    margin-top: -15px;
+    margin-right: 20px;
+    width: 150px;
+    height: 214px;
 }
 
 a {
