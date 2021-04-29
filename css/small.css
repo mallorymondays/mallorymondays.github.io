@@ -1,36 +1,33 @@
 main {
     margin: auto;
     max-width: 750px;
-    display: block;
+    
 }
 
 header,footer {
+  display: block;
     background-color: hsl(161, 50%, 23%);
-    border-radius: 20px;
     padding: .50px;
     text-align: center;
-    display: block;
     color: white;
   
           
 }
     h1 {
-        font-size: 50px;
+        font-size: 30px;
         font-weight: bold;
         font-family: 'Yanone Kaffeesatz', sans-serif;
-      
+    
     }
 
-
     h2 {
-        display: block;
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Yanone Kaffeesatz', sans-serif;
     }
 body {
     
   background-color:white;
-    display: block;
+  display: block;
     margin: 8px;
     margin-top: 8px;
     margin-right: 8px;
@@ -39,24 +36,17 @@ body {
     
 }
 ul {
-    display: block;
-    list-style-type: disc;
    font-size: 18px;
      
 }
 
 hr {
-    display: block;
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
 }
 
 .profileimg {
-    float: right;
-    border-radius: 20px;
-    margin-top: -75px;
-    margin-right: 20px;
     width: 180px;
     height: 214px ;
 }

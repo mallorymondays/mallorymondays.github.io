@@ -1,3 +1,45 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
 header,footer {
-    color: hsl(161, 50%, 23%);
+    background-color: hsl(46, 100%, 87%);
+    padding: 1rem 2%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+/*Navigation rules */
+
+nav {
+    background-color: #111;
+}
+nav ul{
+    margin:0;
+    padding:0; 
+}
+nav li {
+    list-style-type: none;
+}
+nav li.active{
+    background-color: #333;
+}
+nav a {
+    display: block;
+    padding: .8rem 0;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav a:hover {
+    background-color: #444;
 }

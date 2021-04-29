@@ -1,3 +1,10 @@
-header,footer {
-    color: hsl(161, 50%, 23%);
-}
+@media only screen and (min-width: 500px) {
+
+nav ul{display:flex;}
+nav ul li{flex-basis:25%;}
+
+
+
+
+
+}/* end media queries */

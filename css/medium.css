@@ -1,0 +1,23 @@
+@media only screen and (min-width: 32.5em) {
+    h1 {
+        font-size: 50px;
+        
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .profileimg {
+        float: right;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-right: 20px;
+       
+    }
+
+    header,footer {
+          border-radius: 20px;
+         
+    }
+}
