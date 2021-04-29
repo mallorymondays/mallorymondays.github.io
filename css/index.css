@@ -7,7 +7,7 @@ main {
 header,footer {
     background-color: hsl(161, 50%, 23%);
     border-radius: 20px;
-    padding: 3px;
+    padding: .50px;
     text-align: center;
     display: block;
     color: white;
@@ -17,7 +17,7 @@ header,footer {
     h1 {
         font-size: 50px;
         font-weight: bold;
-      font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
       
     }
 
