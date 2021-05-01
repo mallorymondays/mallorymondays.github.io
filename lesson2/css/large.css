@@ -15,5 +15,9 @@
     width: 100%;
   }
 
+  main section h2 {
+    border-radius: 20px;
+  }
+
 
 } /* end media query */
