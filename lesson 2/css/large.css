@@ -1,10 +1,19 @@
 @media only screen and (min-width: 1028px) {
+  main,
+  header,
+  footer {
+    max-width: 75rem;
+    margin: auto;
+    border-radius: 20px;
+  }
 
-    main,header,footer{max-width: 75rem; margin: auto;}
-    
-    
-    main figure {width: 31%}
-    
-    div.news {column-count: 3}
-    
-    } /* end media query */
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main figure {
+    width: 100%;
+  }
+
+
+} /* end media query */
