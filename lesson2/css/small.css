@@ -70,8 +70,8 @@ main section {
 main section h2 {
   color: white;
   background-color: hsl(288, 39%, 58%);
-  padding: 0 1rem;
-  border-radius: 20px;
+  padding: 0 .5rem;
+  
 }
 
 .link {
