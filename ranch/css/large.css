@@ -1,16 +1,28 @@
 @media only screen and (min-width: 1028px) {
+  nav,
+  main,
+  header,
+  footer {
+    max-width: 75rem;
+    margin: auto;
+  }
+  nav a {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 
-nav,main,header,footer{
-    max-width: 75rem; margin: auto;
-    
-}
-nav ul{
-    padding-left:2%;
-}    
-nav ul li{flex-basis:auto;}
+  nav ul {
+    padding-left: 2%;
+  }
+  nav ul li {
+    flex-basis: auto;
+  }
 
-main figure {width: 31%}
+  main figure {
+    width: 31%;
+  }
 
-div.news {column-count: 3}
-
+  div.news {
+    column-count: 3;
+  }
 } /* end media query */
