@@ -34,10 +34,12 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   font-size: 0.8rem;
+  font-weight: 200;
 }
 
 main h2 {
   color: hsl(288, 39%, 58%);
+  font-weight: bold;
 }
 
 main figure img {
