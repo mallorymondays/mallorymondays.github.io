@@ -38,6 +38,7 @@ main {
 main h2 {
   color: hsl(288, 39%, 58%);
   font-weight: bold;
+  
 }
 
 main figure img {
@@ -71,4 +72,8 @@ main section h2 {
   background-color: hsl(288, 39%, 58%);
   padding: 0 1rem;
   border-radius: 20px;
+}
+
+.link {
+  padding: 0 .5rem;
 }
