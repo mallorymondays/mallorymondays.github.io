@@ -16,8 +16,6 @@ header {
   color: white;
   padding: 1rem 2%;
   text-align: center;
-  
-
 }
 
 header h1 {
@@ -53,26 +51,24 @@ main figure {
 
 footer {
   display: grid;
-  color: white;  
+  color: white;
   text-align: center;
   padding: 1rem 2%;
   background-color: hsl(288, 39%, 58%);
-  
 }
 
 main section {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-	background-color: #eee;
-    border-radius: 20px;
-    font-size: 20px;
-    text-align: center;
+  margin: 0.5rem;
+  border: 1px solid #bbb;
+  padding: 0 1rem;
+  background-color: #eee;
+  border-radius: 20px;
+  font-size: 20px;
 }
 
 main section h2 {
-    color: white;
-	background-color: hsl(288, 39%, 58%);
-    padding: 0 1rem;
-    border-radius: 20px;
+  color: white;
+  background-color: hsl(288, 39%, 58%);
+  padding: 0 1rem;
+  border-radius: 20px;
 }
