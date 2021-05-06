@@ -1,72 +1,108 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /*----------- BODY --------------*/
 body {
-    font-size: 16px;
-    font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
 }
-
 
 /*----------- HEADER --------------*/
 header {
-    padding: .5rem 2%;
-    background-color: white;
+  padding: 1.5rem 2%;
+  background-color: white;
 }
-header img {float: left; margin-right: 10px;width: 50px;}
-header h1 {margin: 0;font-size: 1.3rem;}
-header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
+header img {
+  float: left;
+  margin-right: 10px;
+  width: 50px;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #009fa5;
+}
+header h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1rem;
+}
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #00a0a6;
-   
+  background-color: #c9f9fb;
 }
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li a {
-    display: block;
-    color:white;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
-    text-align: center;
+  display: block;
+  color: black;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-align: center;
 }
-
 
 nav ul li a:hover {
-    background-color:#fff3ae;
-    color: black;
+  background-color: #fff3ae;
+  color: black;
 }
 nav ul li.active a {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 /*----------- MAIN --------------*/
 main {
-    padding: 0 2%;
-    min-height: 10rem;
-    font-weight: 200;
+  padding: 0 2%;
+  min-height: 10rem;
+  font-weight: 200;
+}
+main img {
+  margin-bottom: 10px;
 }
 
+main img {
+  width: 100%;
+}
+
+main section img {
+  width: 250px;
+}
+main section {
+  display: grid;
+  margin: 0.5rem;
+  border: 1px solid #bbb;
+  padding: 0 1rem;
+  background-color: #eee;
+  border-radius: 20px;
+  font-size: 16px;
+}
+main figure {
+  width: 100%;
+  margin: 0;
+}
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #00a0a6;
-    padding: .5rem 2%;
-    text-align: center;
-    color: white;
+  background-color: #c9f9fb;
+  padding: 0.5rem 2%;
+  text-align: center;
+  color: black;
 }
-
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
