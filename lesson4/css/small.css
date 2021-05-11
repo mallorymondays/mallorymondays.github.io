@@ -39,9 +39,19 @@ header h2 {
 }
 
 /*----------- NAVIGATION --------------*/
-nav {
+
+.navWrap,.footWrap{
   background-color: #c9f9fb;
 }
+
+nav button {
+  margin: 0.2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: black;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -51,10 +61,11 @@ nav ul {
 nav ul li a {
   display: block;
   color: black;
-  padding: 0.5rem 0;
+  padding: 0.8rem 2%;
   text-decoration: none;
   font-size: 0.9rem;
   text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 nav ul li a:hover {
@@ -62,8 +73,12 @@ nav ul li a:hover {
   color: black;
 }
 nav ul li.active a {
-  background-color: #3f4273;
+  background-color: #4ac1c5;
   color: white;
+}
+
+nav ul.hide {
+  display: none;
 }
 /*----------- MAIN --------------*/
 main {
@@ -84,11 +99,10 @@ main section img {
 }
 main section {
   display: grid;
-  margin: 0.5rem;
+  margin: 1rem;
   border: 1px solid #bbb;
-  padding: 0 1rem;
+  padding: 1rem;
   background-color: #eee;
-  border-radius: 20px;
   font-size: 16px;
 }
 main figure {
@@ -104,6 +118,9 @@ footer {
   color: black;
 }
 
+footer a{
+  color:#4ac1c5;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
