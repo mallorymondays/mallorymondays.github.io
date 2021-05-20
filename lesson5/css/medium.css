@@ -64,7 +64,7 @@
   }
 
   section.section2 div h5 {
-    background-color: #eee;
+    background-color: #c9f9fb;
     margin: 0px;
     padding: 1rem 0;
     font-weight: lighter;
@@ -79,6 +79,7 @@
   }
   .section3 img {
     float: right;
+    width: 48%;
   }
   .section4{
     grid-template-columns: 1fr 1fr 1fr;

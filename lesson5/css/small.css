@@ -99,8 +99,9 @@ nav ul.hide {
   display: none;
 }
 /*----------- MAIN --------------*/
-
-
+main h2 {
+  color: #009fa5;
+}
 
 main {
   padding: 0 2%;
@@ -121,33 +122,40 @@ section.section1 {
   position: absolute;
   top: 20px;
   left: 10px;
-  background-color: #eee;
+  background-color: white;
   padding: 5px;
   box-shadow: 0 0 30px #333;
-  opacity: .9;
+  opacity: 0.8;
 }
 
 section.section2 {
   display: none;
 }
-
-.section3 img{
-  max-width: 100%;
+.section3 {
+  padding-bottom: 40px;
+  padding-top: 10px;
   
 }
+.section3 img {
+  display: block;
+  max-width: 100%;
+  box-shadow: 0 0 10px #333;
+  margin-top: -10px;
+}
 
-.section4{
+.section4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
+  margin-bottom: 20px;
 }
-.section4 img{
+.section4 img {
   max-width: 100%;
-  }
+  box-shadow: 0 0 10px #333;
+}
 /*----------- FOOTER --------------*/
 footer {
   background-color: #c9f9fb;
-  padding: 0.5rem 2%;
+  padding: 0.1rem 5%;
   text-align: center;
   color: black;
 }
