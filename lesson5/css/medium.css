@@ -79,7 +79,7 @@
   }
   .section3 img {
     float: right;
-    width: 48%;
+    width: 50%;
   }
   .section4{
     grid-template-columns: 1fr 1fr 1fr;
