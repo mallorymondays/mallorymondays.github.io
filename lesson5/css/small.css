@@ -111,7 +111,8 @@ main {
   margin: 0 auto;
 }
 .herodiv img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 .herodiv {
   position: relative;
@@ -138,9 +139,11 @@ section.section2 {
 }
 .section3 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   box-shadow: 0 0 10px #333;
   margin-top: -10px;
+  
 }
 
 .section4 {
@@ -149,7 +152,8 @@ section.section2 {
   margin-bottom: 20px;
 }
 .section4 img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   box-shadow: 0 0 10px #333;
 }
 /*----------- FOOTER --------------*/
