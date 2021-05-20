@@ -14,13 +14,12 @@
   }
 
   header,
-  main{
+  main {
     max-width: 64rem;
     margin: auto;
-   }
+  }
 
   /*----------- NAVIGATION --------------*/
-  
 
   nav {
     margin: auto;
@@ -48,16 +47,37 @@
     padding: 0.6rem 1rem;
   }
 
-
   /*----------- MAIN --------------*/
 
-  .section2 {
+  .herodiv img {
+    margin-bottom: 40px;
+  }
+
+  section.section1 {
+    padding: 20px;
+    width: auto;
+   
+  }
+  section.section2 {
     display: grid;
-    margin: 1rem;
-    border: 1px solid #bbb;
-    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+  }
+
+  section.section2 div {
+    text-align: center;
+    border: 1px solid;
+  }
+
+  section.section2 div h5 {
     background-color: #eee;
+    margin: 0px;
+    padding: 1rem 0;
+    font-weight: lighter;
     font-size: 16px;
   }
+
+  
+
   /*----------- FOOTER --------------*/
 } /* end of media query */
