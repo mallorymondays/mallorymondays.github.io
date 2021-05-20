@@ -99,11 +99,8 @@ nav ul.hide {
   display: none;
 }
 /*----------- MAIN --------------*/
-p,
-h3,
-h2 {
-  margin: 0;
-}
+
+
 
 main {
   padding: 0 2%;
@@ -126,12 +123,27 @@ section.section1 {
   left: 10px;
   background-color: #eee;
   padding: 5px;
+  box-shadow: 0 0 30px #333;
+  opacity: .9;
 }
 
 section.section2 {
   display: none;
 }
 
+.section3 img{
+  max-width: 100%;
+  
+}
+
+.section4{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.section4 img{
+  max-width: 100%;
+  }
 /*----------- FOOTER --------------*/
 footer {
   background-color: #c9f9fb;
