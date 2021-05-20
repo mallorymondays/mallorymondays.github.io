@@ -80,6 +80,8 @@
   .section3 img {
     float: right;
     width: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
   .section4{
     grid-template-columns: 1fr 1fr 1fr;
