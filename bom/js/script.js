@@ -17,6 +17,7 @@ addChapterButton.addEventListener('click', function () {
         });
         listItem.append(listButton);
         list.appendChild(listItem);
+    
     }
 });
 // document.getElementById('chapter').Value
