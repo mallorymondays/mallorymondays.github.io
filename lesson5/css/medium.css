@@ -92,6 +92,9 @@
   .section4{
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .section4 img {
+    grid-column: 3/4;
+  }
   /*----------- FOOTER --------------*/
  /* end of media query */
 }
