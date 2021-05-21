@@ -48,7 +48,9 @@
   }
 
   /*----------- MAIN --------------*/
-
+.fiveday{
+  display: grid;
+}
   section.section1 {
     padding: 20px;
     width: auto;

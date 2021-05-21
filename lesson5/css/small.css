@@ -102,6 +102,9 @@ nav ul.hide {
 main h2 {
   color: #009fa5;
 }
+.fiveday{
+  display: none;
+}
 
 main {
   padding: 0 2%;
