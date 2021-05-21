@@ -20,7 +20,7 @@ header,footer {
 }
     h1 {
         font-size: 30px;
-        font-weight: lighter;
+        font-weight: bold;
         font-family: 'Yanone Kaffeesatz', sans-serif;
         
     
@@ -29,7 +29,6 @@ header,footer {
     h2 {
         font-size: 20px;
         font-family: 'Yanone Kaffeesatz', sans-serif;
-        font-weight:lighter;
         margin-left: 20px;
        
     }
