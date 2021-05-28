@@ -38,7 +38,7 @@
             <button onclick="toggleMenu()"> &#9776; </button>
             <ul id="primNav" class="hide">
                 <li><a href="#">Home</a></li>
-                <li class="active"><a href="preston-5.html">Preston</a></li>
+                <li class="active"><a href="preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -53,14 +53,18 @@
         <h1>PRESTON</h1>
         <div class="herodiv">
 
-            <img src="images/idaho.jpg" width="50" height="10" alt="idaho map">
+            <picture class="hero-image">
+                <source media="(max-width: 400px)" srcset="images/small.jpg 400w">
+                <source media="(max-width: 800px)" srcset="images/medium.jpg 800w">
+                <img src="images/large.jpg" alt="Sunny day over grassy field">
+            </picture>
 
             <section class="section1">
                 <h3>Weather Summary</h3>
                 <hr>
-                <p>High: <span id="high">48 &deg; F</span></p>
-                <p>Low: <span id="low">33 &deg; F</span></p>
-                <p>Wind: <span id="wind">2 MPH</span></p>
+                <p>Temprature: <span id="temp">55</span> &deg; F</p>
+                <p>Wind Speed: <span id="speed">1</span> mph 
+                <p> <span id="chill"></span></p>
             </section>
         </div>
 
@@ -167,6 +171,9 @@
     </div>
     <script src="js/scripts.js"></script>
     <script src="js/bannerscript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
