@@ -22,9 +22,9 @@ main {
 }
 
 img {
-  padding: 0.9px;
-  margin: 0 auto;
-  border: 1px solid red;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
 }
 
 picture img[data-src] {
