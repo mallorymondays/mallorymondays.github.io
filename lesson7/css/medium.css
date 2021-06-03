@@ -48,9 +48,9 @@
   }
 
   /*----------- MAIN --------------*/
-.fiveday{
-  display: grid;
-}
+  .fiveday {
+    display: grid;
+  }
   section.section1 {
     padding: 20px;
     width: auto;
@@ -73,7 +73,6 @@
     padding: 1rem 0;
     font-weight: lighter;
     font-size: 16px;
-   
   }
   section.section2 img {
     margin: 0;
@@ -89,12 +88,23 @@
     margin-left: 15px;
     margin-bottom: 15px;
   }
-  .section4{
+  .section4 {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .section4 img {
     grid-column: 3/4;
   }
-  /*----------- FOOTER --------------*/
- /* end of media query */
+
+  .gallerydiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery {
+    column-gap: 2%;
+    margin: 2%;
+    margin-bottom: 0;
+  }
 }
+/*----------- FOOTER --------------*/
+/* end of media query */

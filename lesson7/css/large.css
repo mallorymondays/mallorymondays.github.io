@@ -7,8 +7,12 @@
     max-width: 64rem;
     margin: auto;
   }
-
+  .gallerydiv {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: auto;
+  }
   
+  .gallery img:hover {box-shadow: 0 0 50px #333;}
 
   /*----------- BODY --------------*/
 
