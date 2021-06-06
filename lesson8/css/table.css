@@ -1,0 +1,48 @@
+html {
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 10px 10px 17px #6f96ad;
+  }
+  tr.acme th{
+    background-color: #7fb9c2;
+    color: black;
+    font-size: 35px;
+
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgba(98,140,166,255);
+    color: white;
+    font-size: 20px;
+    ;
+  }
+  
+  td {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgba(231,255,237,255)
+    ;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgba(231,240,237,255)
+  }
+  
+  caption {
+    padding: 10px;
+  }
