@@ -16,6 +16,9 @@ html {
     font-size: 35px;
 
   }
+  table tbody tr:nth-child(6) td:nth-child(3){
+    color:white;
+  }
   
   td, th {
     border: 1px solid rgb(190,190,190);
