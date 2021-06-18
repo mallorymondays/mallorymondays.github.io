@@ -48,9 +48,9 @@
   }
 
   /*----------- MAIN --------------*/
-.fiveday{
-  display: grid;
-}
+  .fiveday {
+    display: grid;
+  }
   section.section1 {
     padding: 20px;
     width: auto;
@@ -73,7 +73,6 @@
     padding: 1rem 0;
     font-weight: lighter;
     font-size: 16px;
-   
   }
   section.section2 img {
     margin: 0;
@@ -89,21 +88,26 @@
     margin-left: 15px;
     margin-bottom: 15px;
   }
-  .section4{
+  .section4 {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .section4 img {
     grid-column: 3/4;
   }
 
-/*----------- HOME CARDS --------------*/
+  /*----------- HOME CARDS --------------*/
   #cards div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-#cards div:nth-child(2) figure {grid-column: 1; grid-row: 1;}
-#cards div:nth-child(2) section {grid-column: 2;}
+  }
+  #cards div:nth-child(2) figure {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #cards div:nth-child(2) section {
+    grid-column: 2;
+  }
 
   /*----------- FOOTER --------------*/
- /* end of media query */
+  /* end of media query */
 }
