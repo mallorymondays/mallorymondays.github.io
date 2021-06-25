@@ -130,11 +130,34 @@ section.section1 {
   padding: 5px;
   box-shadow: 0 0 30px #333;
   opacity: 0.8;
+  
 }
 
-section.section2 {
-  display: none;
+#weatherforecast {
+  display: grid;
+  margin: 0;
+  padding: 40px;
 }
+
+#weatherforecast div {
+  text-align: center;
+  border: 1px solid;
+  margin: 6px;
+}
+
+#weatherforecast div h5 {
+  background-color: #c9f9fb;
+  margin: 0px;
+  padding: 1rem 0;
+  font-weight: lighter;
+  font-size: 16px;
+ 
+}
+#weatherforecast img {
+  margin: 0;
+  max-width: 75%;
+}
+
 .section3 {
   padding-bottom: 10px;
   padding-top: 10px;

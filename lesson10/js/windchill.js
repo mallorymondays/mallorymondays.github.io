@@ -1,6 +1,5 @@
-const tempNumber = parseFloat(document.getElementById("temp").textContent);
-// console.log(tempNumber);
-
+/*const tempNumber = parseFloat(document.getElementById("temp").textContent);
+// 
 const  speedNumber = parseFloat(document.getElementById("speed").textContent);
 // console.log(speedNumber);
 
@@ -13,3 +12,8 @@ if (tempNumber <= 50 && speedNumber >3) {
 } else {
     document.getElementById("chill").textContent = "No Wind Chill Today.";
 }
+theDay.setAttribute("class", "weatherforecast-box");
+        theDayName.setAttribute("class", "weatherforecast-name");
+        theTemp.setAttribute("class", "weatherforecast-temp");
+        theIcon.setAttribute("class", "weatherforecast-icon");
+        */

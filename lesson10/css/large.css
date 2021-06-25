@@ -17,7 +17,12 @@
   /*----------- NAVIGATION --------------*/
 
   /*----------- MAIN --------------*/
-
+  #weatherforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 75%;
+    margin: 0;
+  }
   /*----------- FOOTER --------------*/
 }
 /* end of media query */
