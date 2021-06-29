@@ -1,0 +1,102 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+  /*----------- BODY --------------*/
+
+  /*----------- HEADER --------------*/
+  header img {
+    width: auto;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  header,
+  main {
+    max-width: 64rem;
+    margin: auto;
+  }
+
+  /*----------- NAVIGATION --------------*/
+
+  nav {
+    margin: auto;
+    background-color: #c9f9fb;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0.6rem 1rem;
+  }
+
+  /*----------- MAIN --------------*/
+.fiveday{
+  display: grid;
+}
+  section.section1 {
+    padding: 20px;
+    width: auto;
+  }
+  #weatherforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
+  }
+  
+  .section3 img {
+    float: right;
+    width: 50%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .section4{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section4 img {
+    grid-column: 3/4;
+  }
+
+  .gallerydiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery {
+    column-gap: 2%;
+    margin: 2%;
+    margin-bottom: 0;
+  }
+
+   /*----------- HOME CARDS --------------*/
+   #cards div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #cards div:nth-child(2) figure {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #cards div:nth-child(2) section {
+    grid-column: 2;
+  }
+  /*----------- FOOTER --------------*/
+ /* end of media query */
+}
