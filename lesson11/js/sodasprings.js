@@ -39,6 +39,7 @@ console.log (mylist);
         let iconpath = "//openweathermap.org/img/w/" + iconcode + ".png";
         let theIcon= document.createElement("img");
         theIcon.src = iconpath;
+        theIcon.alt = mylist[i].weather[0].description;
 
         let theDay = document.createElement("div");
         theDay.appendChild(theDayname);
