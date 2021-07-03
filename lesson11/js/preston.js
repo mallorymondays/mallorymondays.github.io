@@ -10,7 +10,7 @@ myweekday[5] = "Friday";
 myweekday[6] = "Saturday";
 
 const apiURL =
-  "////api.openweathermap.org/data/2.5/forecast?q=Preston,ID,US&appid=84297c2a0a0b88e4f791efca7bb46439&units=imperial";
+  "//api.openweathermap.org/data/2.5/forecast?q=Preston,ID,US&appid=84297c2a0a0b88e4f791efca7bb46439&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -50,10 +50,12 @@ console.log (mylist);
 
         document.getElementById("weatherforecast").appendChild(theDay);
 
-      } // end if
+      } 
       
-    } // end for
-  }); // end then
+    } 
+  }); 
+
+//weather summary
 
 const currentapiURL =
   "//api.openweathermap.org/data/2.5/weather?id=5604473&APPID=84297c2a0a0b88e4f791efca7bb46439&units=imperial";
@@ -90,4 +92,34 @@ fetch(currentapiURL)
     } else {
       document.getElementById("chill").textContent = "No Wind Chill Today.";
     }
+  });
+
+  fetch(requestURL)
+  .then(function (response) {
+      return response.json();
+  })
+  .then(function (jsonObject) {
+      
+
+      const towns = jsonObject["towns"];
+
+      const needTowns = towns.filter(town => town.name == "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven");
+      
+
+      const eventpreston = document.querySelector("#eventpreston");
+      const preston = "Preston";
+
+      needTowns.forEach(town => {
+
+        if (town.name == preston) {
+          for (let i = 0; i < town.events.length; i++) {
+            let ep = document.createElement("p");
+
+            ep.textContent = town.events[i];
+            eventpreston.appendChild(ep);
+          }
+        }
+
+        
+      });
   });

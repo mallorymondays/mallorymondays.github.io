@@ -92,5 +92,32 @@ fetch(currentapiURL)
     }
   });
 
+  fetch(requestURL)
+  .then(function (response) {
+      return response.json();
+  })
+  .then(function (jsonObject) {
+      
 
+      const towns = jsonObject["towns"];
+
+      const needTowns = towns.filter(town => town.name == "Preston" || town.name == "fish Springs" || town.name == "Fish Haven");
+      
+
+      const eventfish = document.querySelector("#eventfish");
+      const fish = "Fish Haven"
+      needTowns.forEach(town => {
+
+        if (town.name == fish) {
+          for (let i = 0; i < town.events.length; i++) {
+            let efh = document.createElement("p");
+
+            efh.textContent = town.events[i];
+            eventfish.appendChild(efh);
+          }
+        }
+
+        
+      });
+  });
 

@@ -91,3 +91,35 @@ fetch(currentapiURL)
       document.getElementById("chill").textContent = "No Wind Chill Today.";
     }
   });
+
+
+    fetch(requestURL)
+      .then(function (response) {
+          return response.json();
+      })
+      .then(function (jsonObject) {
+          
+  
+          const towns = jsonObject["towns"];
+  
+          const needTowns = towns.filter(town => town.name == "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven");
+          
+  
+          const eventsoda = document.querySelector("#eventsoda");
+          const soda = "Soda Springs";
+   
+          needTowns.forEach(town => {
+  
+            if (town.name == soda) {
+              for (let i = 0; i < town.events.length; i++) {
+                let ess = document.createElement("p");
+  
+                ess.textContent = town.events[i];
+                eventsoda.appendChild(ess);
+              }
+            }
+  
+            
+          });
+      });
+

@@ -37,8 +37,8 @@
         <nav class="clearfix">
             <button onclick="toggleMenu()"> &#9776; </button>
             <ul id="primNav" class="hide">
-                <li ><a href="index.html">Home</a></li>
-                <li  class="active"><a href="preston.html">Preston</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
                 <li><a href="sodasprings.html">Soda Springs</a></li>
                 <li><a href="fishhaven.html">Fish Haven</a></li>
                 <li><a href="stormcenter.html">Storm Center</a></li>
@@ -54,8 +54,10 @@
         <div class="herodiv">
 
             <picture class="hero-image">
-                <source media="(max-width: 400px)" srcset="images/prestonsmall.jpg 400w" sizes="100vw" alt="Rolling hills and small town">
-                <source media="(max-width: 800px)" srcset="images/prestonmedium.jpg 800w" sizes="100vw" alt="Rolling hills and small town">
+                <source media="(max-width: 400px)" srcset="images/prestonsmall.jpg 400w" sizes="100vw"
+                    alt="Rolling hills and small town">
+                <source media="(max-width: 800px)" srcset="images/prestonmedium.jpg 800w" sizes="100vw"
+                    alt="Rolling hills and small town">
                 <img src="images/prestonlarge.jpg" alt="Rolling hills and small town">
             </picture>
 
@@ -69,13 +71,19 @@
                 <p>Wind Chill: <span id="chill"></span>&deg; F</p>
             </section>
         </div>
-        
+
 
         <h2>Five Day Forecast</h2>
         <div id="weatherforecast"></div>
-        
-        
-        <section class="section3" >
+
+        <h2>Upcoming Events</h2>
+        <section class= "eventbox">
+            <div id="eventpreston">
+                
+            </div>
+        </section>
+
+        <section class="section3">
             <h2>Potato Picking Party</h2>
             <img src="images/potato.jpg" alt="potatos in hand">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -126,7 +134,7 @@
 
 
             </div>
-            <img src="images/map.png" height="350" width="100"  alt="map of preston idaho">
+            <img src="images/map.png" height="350" width="100" alt="map of preston idaho">
 
         </section>
     </main>
@@ -144,12 +152,15 @@
 
     </div>
     <script src="js/scripts.js"></script>
+    <script defer src="js/prestonevents.js"></script>
     <script src="js/bannerscript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/preston.js"></script>
+    <script src="js/fontload.js"></script>
+   
     
-  
-    
+
+
 </body>
 
 </html>
