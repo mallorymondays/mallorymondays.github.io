@@ -1,0 +1,20 @@
+{
+    "business": [
+      {
+        "name": "Mesa Roofing",
+        "photo": "mesaroofing.jpg",
+        "motto": "Family Owned and Operated"
+      },
+      {
+        "name": "Barro's Pizza",
+        "photo": "barros.jpg",
+        "motto": "A Family Tradition"
+      },
+      {
+        "name": "Big O Tires",
+        "photo": "bigotires.jpg",
+        "motto": "The Team You Trust"
+      }
+    
+    ]
+  }
