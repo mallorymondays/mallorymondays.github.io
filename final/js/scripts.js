@@ -1,54 +1,46 @@
-
-
 function toggleMenu() {
-    document.getElementById("primNav").classList.toggle("hide");
-  }
-  
-  function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
+  document.getElementById("primNav").classList.toggle("hide");
 }
-  
-const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
+
+const requestURL = "https://mallorymondays.github.io/business.json";
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    const towns = jsonObject["towns"];
+    const business = jsonObject["business"];
     console.table(jsonObject);
 
-    for (let i = 0; i < towns.length; i++) {
-      if (i == 0 || i == 2 || i == 6) {
+    for (let i = 0; i < business.length; i++) {
+      if (i == 0 || i == 1 || i == 2) {
         let card = document.createElement("div");
         let info = document.createElement("section");
         let image = document.createElement("figure");
 
         let name = document.createElement("h2");
         let motto = document.createElement("h3");
-        let yearFounded = document.createElement("p");
-        let currentPopulation = document.createElement("p");
-        let averageRainfall = document.createElement("p");
+        let website = document.createElement("p");
         let photo = document.createElement("img");
 
-        name.textContent = towns[i].name;
-        motto.textContent = towns[i].motto;
-        yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
-        currentPopulation.textContent =
-          "Population: " + towns[i].currentPopulation;
-        averageRainfall.textContent =
-          "Annual Rain Fall: " + towns[i].averageRainfall;
+        name.textContent = business[i].name;
+        motto.textContent = business[i].motto;
+        website.textContent = business[i].website;
+        
 
-        photo.setAttribute("src", "images/" + towns[i].photo);
-        photo.setAttribute("alt", towns[i].name);
+        photo.setAttribute("src", "images/" + business[i].photo);
+        photo.setAttribute("alt", business[i].name);
         photo.setAttribute("width", "400");
         photo.setAttribute("height", "200");
 
         info.appendChild(name);
         info.appendChild(motto);
-        info.appendChild(yearFounded);
-        info.appendChild(currentPopulation);
-        info.appendChild(averageRainfall);
+        info.appendChild(website);
+        
 
         card.appendChild(info);
         image.appendChild(photo);
@@ -58,6 +50,3 @@ fetch(requestURL)
       }
     }
   });
-
-
-

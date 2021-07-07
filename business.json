@@ -3,17 +3,20 @@
       {
         "name": "Mesa Roofing",
         "photo": "mesaroofing.jpg",
-        "motto": "Family Owned and Operated"
+        "motto": "Family Owned and Operated",
+        "website": "www.mesaroofingaz.com"
       },
       {
         "name": "Barro's Pizza",
         "photo": "barros.jpg",
-        "motto": "A Family Tradition"
+        "motto": "A Family Tradition",
+        "website": "www.barrospizza.com"
       },
       {
         "name": "Big O Tires",
         "photo": "bigotires.jpg",
-        "motto": "The Team You Trust"
+        "motto": "The Team You Trust",
+        "website": "www.bigotires.com"
       }
     
     ]

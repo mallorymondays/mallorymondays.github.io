@@ -53,7 +53,7 @@ fetch(apiURL)
 //weather summary
 
 const currentapiURL =
-  "//api.openweathermap.org/data/2.5/weather?id=5604473&APPID=84297c2a0a0b88e4f791efca7bb46439&units=imperial";
+  "//api.openweathermap.org/data/2.5/weather?q=Mesa,az,US&appid=84297c2a0a0b88e4f791efca7bb46439&units=imperial";
 fetch(currentapiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
