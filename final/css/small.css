@@ -194,11 +194,11 @@ form legend {
 }
 
 form label.top,
-form div,
-.scale {
+form div
+{
   display: block;
   padding-top: 1rem;
-  color: #0d9681;
+  color: #107665;
   font-size: 0.8rem;
 }
 
