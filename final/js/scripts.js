@@ -14,7 +14,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const business = jsonObject["business"];
-    console.table(jsonObject);
+    
 
     for (let i = 0; i < business.length; i++) {
       if (i == 0 || i == 1 || i == 2) {
@@ -34,7 +34,7 @@ fetch(requestURL)
 
         photo.setAttribute("src", "images/" + business[i].photo);
         photo.setAttribute("alt", business[i].name);
-        photo.setAttribute("width", "400");
+        photo.setAttribute("width", "200");
         photo.setAttribute("height", "200");
 
         info.appendChild(name);

@@ -24,10 +24,13 @@
 </head>
 
 <body>
-    <div id="message">Mesa Chamber of Commerce Announcement: </div>
+    <div id="message">Have a Great Weekend! </div>
+
 
     <header class="clearfix">
-        <img src="images/mesacoclogo.jpg" height="90" width="90" alt="site logo cactus">
+        <a href="index.html">
+            <img src="images/mesacoclogo.jpg" height="90" width="90" alt="site logo cactus">
+            </a>
         <h1>Mesa Chamber of Commerce</h1>
         <h2>Uniting Business | Advancing Arizona</h2>
     </header>
@@ -50,9 +53,9 @@
     <main class="clearfix">
 
         <h1>Contact Us</h1>
-        <div class="herodiv">
+        <!--  <div class="herodiv">
 
-            <picture class="hero-image">
+           <picture class="hero-image">
                 <source media="(max-width: 400px)" srcset="images/contactusphotosmall.jpg 400w" sizes="100vw">
                 <source media="(max-width: 800px)" srcset="images/contactusphotomed.jpg 800w" sizes="100vw">
                 <img src="images/contactusphotolarge.jpg" alt="mesa az sunset">
@@ -60,20 +63,21 @@
 
 
         </div>
+-->
 
-
-        <section class="section4">
+        <section class="contactus">
 
 
             <div>
-                <h4>Address:</h4>
+                <h4>We are located at:</h4>
                 <p>Mesa Chamber Of Commerce
                 <p>1234 W. Main St.</p>
                 <p>Mesa, AZ 85222</p>
             </div>
             <div>
                 <h4>Phone:</h4>
-                <p>(480)488-8888</p>
+                <p>(480)488-8888 </p>
+                <p>Business Hours: <br> 8:00 AM - 5:00 PM</p>
                 <h4>Email:</h4>
                 <p>hello@mesacoc.com</p>
 
@@ -84,8 +88,47 @@
                 width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
         </section>
+        <h2>Board of Directors</h2>
+        <div class="gallerydiv">
 
-        <section class="section3">
+            <figure class="board">
+                <img src="images/placeholder.jpg" data-src="images/katiesmith.jpg" width="300" height="300"
+                    alt="photo of woman">
+                <figcaption>Katie Smith</figcaption>
+            </figure>
+            <figure class="board">
+                <img src="images/placeholder.jpg" data-src="images/jeremiahjenkins.jpg" width="300" height="300"
+                    alt="photo of man">
+                <figcaption>Jeremiah Jenkins</figcaption>
+            </figure>
+            <figure class="board">
+                <img src="images/placeholder.jpg" data-src="images/staceyjohnson.jpg" width="300" height="300"
+                    alt="photo of woman">
+                <figcaption>Stacey Johnson</figcaption>
+            </figure>
+            <figure class="board">
+                <img src="images/placeholder.jpg" data-src="images/jasminejones.jpg" width="300" height="300"
+                    alt="photo of woman">
+                <figcaption>Jasmine Jones</figcaption>
+            </figure>
+            <figure class="board">
+                <img src="images/placeholder.jpg" data-src="images/kevinwilliams.jpg" width="300" height="300"
+                    alt="photo of man">
+                <figcaption>Kevin Williams</figcaption>
+            </figure>
+            <figure class="board">
+                <img src="images/placeholder.jpg" data-src="images/mikehank.jpg" width="300" height="300"
+                    alt="photo of man">
+                <figcaption>Mike Hank</figcaption>
+            </figure>
+
+        </div>
+
+        <div class="email">
+            <img src="images/email.png" height="365" width="365" alt="man on laptop">
+        </div>
+
+        <section class="contactsection">
             <form method="get" action="thanks.html">
 
                 <fieldset>
@@ -106,41 +149,7 @@
             </form>
         </section>
 
-        <h2>Board of Directors</h2>
-        <div class="gallerydiv">
 
-            <figure class="gallery1">
-                <img src="images/placeholder.jpg" data-src="images/katiesmith.jpg" width="300" height="300"
-                    alt="photo of woman">
-                <figcaption>Katie Smith</figcaption>
-            </figure>
-            <figure class="gallery1">
-                <img src="images/placeholder.jpg" data-src="images/jeremiahjenkins.jpg" width="300" height="300"
-                    alt="photo of man">
-                <figcaption>Jeremiah Jenkins</figcaption>
-            </figure>
-            <figure class="gallery1">
-                <img src="images/placeholder.jpg" data-src="images/staceyjohnson.jpg" width="300" height="300"
-                    alt="photo of woman">
-                <figcaption>Stacey Johnson</figcaption>
-            </figure>
-            <figure class="gallery1">
-                <img src="images/placeholder.jpg" data-src="images/jasminejones.jpg" width="300" height="300"
-                    alt="photo of woman">
-                <figcaption>Jasmine Jones</figcaption>
-            </figure>
-            <figure class="gallery1">
-                <img src="images/placeholder.jpg" data-src="images/kevinwilliams.jpg" width="300" height="300"
-                    alt="photo of man">
-                <figcaption>Kevin Williams</figcaption>
-            </figure>
-            <figure class="gallery1">
-                <img src="images/placeholder.jpg" data-src="images/mikehank.jpg" width="300" height="300"
-                    alt="photo of man">
-                <figcaption>Mike Hank</figcaption>
-            </figure>
-
-        </div>
     </main>
 
 
@@ -152,17 +161,25 @@
                 <span id="lu"></span>
             </p>
             <script src="js/footerscript.js"></script>
+            <div class="social">
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" height="50" width="50"
+                        alt="facebook logo" /></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" height="50" width="50"
+                        alt="twitter logo" /></a>
+                <a href="https://www.pinterest.com" target="_blank"><img src="images/pinterest.png" height="50"
+                        width="50" alt="pinterest logo" /></a>
+            </div>
+
         </footer>
 
-    </div>
-    <script src="js/scripts.js"></script>
-    <script src="js/bannerscript.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/fishhaven.js"></script>
-    <script src="js/fontload.js"></script>
-    <script src="js/lazy.js" defer></script>
-    <script src="js/visited.js"></script>
-    <script src="js/scripts.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="js/fishhaven.js"></script>
+        <script src="js/fontload.js"></script>
+        <script src="js/lazy.js" defer></script>
+        <script src="js/visited.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/bannerscript.js"></script>
 
 </body>
 

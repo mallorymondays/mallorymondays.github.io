@@ -2,12 +2,13 @@
 @media only screen and (min-width: 35rem) {
   /*----------- BODY --------------*/
 
-  /*----------- HEADER --------------*/
+  /*----------- HEADER ALL --------------*/
   header img {
-    width: auto;
+    margin-left: 2px;
+    margin-top: 10px;
   }
   header h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   header h2 {
     font-size: 1.5rem;
@@ -19,60 +20,88 @@
     margin: auto;
   }
 
-  /*----------- NAVIGATION --------------*/
-
-  nav {
-    margin: auto;
-    background-color: #107665;
-  }
-
-  nav button {
-    display: none;
-  }
-
-  nav ul.hide {
-    display: block;
-  }
-  nav ul {
-    margin-left: 2%;
-  }
-
-  nav ul li {
-    float: left;
-  }
-
-  nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
-    padding: 0.6rem 1rem;
-  }
+  
 
   /*----------- MAIN --------------*/
+  
+
+/*----------- JOIN PAGE --------------*/
+  
+.joinimage{
+  display: block;
+  float: right;
+  margin-top: .8em;
+}
+
+.membership{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: .5em;
+
+  }
+  .membership div{
+    margin: 0;
+  }
+  
+  .joinimage img{
+    margin-left: 1em;
+    margin-top: .4em;
+    border-radius: 10px;
+  }
+
+  /*----------- CONTACT PAGE --------------*/
+  .email{
+    display: block;
+    float: left;
+  }
+  
+  .email img{
+    margin-top: 2em;
+  }
+
+/*----------- HOME PAGE --------------*/
+
+.joinbtnsmall img {
+  display: none;
+}
+
+.joinbtn img{
+  display: block;
+  width: 80%;
+  margin: 1em;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactus{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.contactus iframe {
+  grid-column: 3/4;
+}
+
 .fiveday{
   display: grid;
 }
-  section.section1 {
-    padding: 20px;
-    width: auto;
-  }
+
+
+ 
+
   #weatherforecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0px;
   }
   
-  .section3 img {
-    float: right;
+  .welcomecoc img {
+    float: left;
     width: 50%;
-    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 15px;
   }
-  .section4{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .section4 iframe {
-    grid-column: 3/4;
-  }
+
+/*----------- DIRECTORY PAGE --------------*/
 
   .gallerydiv {
     display: grid;
@@ -84,24 +113,34 @@
     margin: 2%;
     margin-bottom: 0;
   }
-  .gallery1 {
+  .board {
     column-gap: 2%;
     margin: 2%;
     margin-bottom: 0;
   }
 
    /*----------- HOME CARDS --------------*/
-   #cards div {
+   #cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
   }
-  #cards div:nth-child(2) figure {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  #cards div:nth-child(2) section {
-    grid-column: 2;
+ 
+
+  /*----------- MESA PAGE --------------*/
+
+  .aboutmesa img{
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .2em;
+    
+  
   }
   /*----------- FOOTER --------------*/
+
+
+
  /* end of media query */
 }

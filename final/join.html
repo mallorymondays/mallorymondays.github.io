@@ -27,7 +27,9 @@
     <div id="message">Mesa Chamber of Commerce Announcement: </div>
 
     <header class="clearfix">
-        <img src="images/mesacoclogo.jpg" height="90" width="90" alt="site logo cactus">
+        <a href="index.html">
+            <img src="images/mesacoclogo.jpg" height="90" width="90" alt="site logo cactus">
+            </a>
         <h1>Mesa Chamber of Commerce</h1>
         <h2>Uniting Business | Advancing Arizona</h2>
     </header>
@@ -49,76 +51,105 @@
 
     <main class="clearfix">
 
+        <h1>Join the Mesa Chamber of Commerce</h1>
+        <div class="joinimage">
+            <img src="images/joinimage.jpg" height="855" width="320" alt="man on laptop">
+        </div>
+        
         <form method="get" action="thanks.html">
 
             <fieldset>
                 <legend> Applicant Information </legend>
-                <label class="top">Full Name*<input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label>
-                <label class="top"> Phone* <input type="tel" name="phone" placeholder="1235551234" required> </label>
-                <label class="top"> Email <input type="email" name="email" placeholder="someone@gmail.com">
-                </label>
-                <label class="top"> Zipcode* <input type="number" name="zipcode" required> </label>
-
+                <label class="top">First Name*<input type="text" name="firstname" pattern="[A-Za-z ]{5,}"
+                        required></label>
+                <label class="top">Last Name*<input type="text" name="lastname" pattern="[A-Za-z ]{5,}"
+                        required></label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label class="top"> Cell Phone <input type="tel" name="phone" placeholder="1235551234"> </label>
             </fieldset>
+
             <fieldset>
-                <legend> Storm Information </legend>
-
-                <label class="top"> Storm Date <input type="date" name="date"></label>
-
-
-                <label class="top">Storm Type <input list="stormType" id="storm" name="storm">
-
-                    <datalist id="stormType">
-                        <option value="Flood">
-                        <option value="Hail">
-                        <option value="Hurricane">
-                        <option value="Thunderstorm">
-                        <option value="Tornado">
-                    </datalist>
-                </label>
-               
-                <label class="scale"> Storm Severity <br> <input type="range" id="rating" value="5" min="1" max="10" step="1"
-                        list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
-                </label>
-                <datalist id="tickmarks">
-                    <option value="0">
-                    <option value="1">
-                    <option value="2">
-                    <option value="3">
-                    <option value="4">
-                    <option value="5">
-                    <option value="6">
-                    <option value="7">
-                    <option value="8">
-                    <option value="9">
-                    <option value="10">
-                </datalist>
-
-
-                <label class="top"> Storm Region <select name="region">
-                        <option value="">Select Region &#9662;</option>
-                        <option value="fishHaven">Fish Haven</option>
-                        <option value="preston">Preston</option>
-                        <option value="sodaSprings">Soda Springs</option>
-                    </select>
-                </label>
-                <div>Are you in Danger</div>
-                <label class="sbs"><input type="radio" name="danger" value="beginner"> Yes</label>
-                <label class="sbs"><input type="radio" name="danger" value="intermediate"> Maybe</label>
-                <label class="sbs"><input type="radio" name="danger" value="advanced"> No</label>
-
-            </fieldset>
-            <fieldset>
-                <legend> Additional Information </legend>
-                <label class="top" for="comments">Comments</label>
+                <legend> Business Information </legend>
+                <label class="top">Business Name*<input type="text" name="businessname" pattern="[A-Za-z ]"
+                        required></label>
+                <label class="top">Title<input type="text" name="title" pattern="[A-Za-z ]"></label>
+                <label class="top">Business Address<input type="text" name="address" pattern="[A-Za-z ]"></label>
+                <label class="top">Business Website<input type="text" name="website" placeholder="www.website.com"
+                        pattern="[A-Za-z ]"></label>
+                <label class="top" for="comments">Business Discription</label>
                 <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+
+
+
             </fieldset>
+
+            <section class="membership">
+                <div id="nonprofit">Non-profit -- $100
+                    <ul>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+
+                    </ul>
+                </div>
+
+                <div id="bronze">Bronze -- $200
+                    <ul>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+
+                    </ul>
+                </div>
+
+                <div id="silver">Silver -- $400
+                    <ul>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+
+                    </ul>
+                </div>
+                <div id="gold">Gold -- $1000
+
+                    <ul>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+                        <li>benifit 1</li>
+
+                    </ul>
+                </div>
+            </section>
+
+
+            <fieldset>
+                <legend> Select A Membership </legend>
+
+                <label class="sbs"><input type="radio" name="membership" value="non"> Non-profit </label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze </label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold </label>
+
+
+            </fieldset>
+
+
 
             <input type="submit" formaction="thanks.html" value="Join" class="submitBtn">
         </form>
-   
-   
+        <section class="membership">
+
+
+
     </main>
 
 
@@ -130,8 +161,16 @@
                 <span id="lu"></span>
             </p>
             <script src="js/footerscript.js"></script>
-        </footer>
+            <div class="social">
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" height="50" width="50"
+                        alt="facebook logo" /></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" height="50" width="50"
+                        alt="twitter logo" /></a>
+                <a href="https://www.pinterest.com" target="_blank"><img src="images/pinterest.png" height="50"
+                        width="50" alt="pinterest logo" /></a>
+            </div>
 
+        </footer>
     </div>
     <script src="js/scripts.js"></script>
     <script src="js/bannerscript.js"></script>

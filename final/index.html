@@ -24,12 +24,14 @@
 </head>
 
 <body>
-    <div id="message">Mesa Chamber of Commerce Announcement: </div>
+    <div id="message">Have a Great Weekend! </div>
 
-    <header class="clearfix">
+    <header class="clearfix"> <a href="index.html">
         <img src="images/mesacoclogo.jpg" height="90" width="90" alt="site logo cactus">
+        </a>
         <h1>Mesa Chamber of Commerce</h1>
         <h2>Uniting Business | Advancing Arizona</h2>
+
     </header>
 
 
@@ -49,17 +51,17 @@
 
     <main class="clearfix">
 
-        <h1>Home</h1>
+        
         <div class="herodiv">
 
             <picture class="hero-image">
-                <source media="(max-width: 400px)" srcset="images/homephotosmall.jpg 400w" sizes="100vw">
+                <source media="(max-width: 544px)" srcset="images/homephotosmall.jpg 400w" sizes="100vw">
                 <source media="(max-width: 800px)" srcset="images/homephotomed.jpg 800w" sizes="100vw">
                 <img src="images/homephotolarge1.jpg" alt="photo of red mountain">
             </picture>
 
-            <section class="section1">
-                <h2>Weather Summary: <span id="place">city</span></h2>
+            <section class="weathersum">
+                <h2>Weather In Mesa    </h2>
                 <hr>
                 <p>Currently: <span id="description"> xx</span></p>
                 <p>Humidity: <span id="humidity"> 00</span>&#37;</p>
@@ -71,7 +73,7 @@
 
 
 
-        <section class="section3">
+        <section class="welcomecoc">
             <h2>Welcome: Mesa Chamber of Commerce</h2>
             <img src="images/aboutmesa.jpg" alt="mesa az">
             <p>
@@ -98,19 +100,23 @@
             </p>
         </section>
 
-        <article id="cards">
+        <section class="joinbtn"> <a href="join.html">
+            <img src="images/joinnow.jpg" height="97" width="280" alt="join button">
+        </a>
+    </section>
+    <section class="joinbtnsmall"> <a href="join.html">
+        <img src="images/joinnowsmall.jpg" height="97" width="280" alt="join button">
+    </a>
+</section>
 
-         
-        </article>
+        <article id="cards"> </article>
 
-        <h2>Five Day Forecast</h2>
+        <h2>Forecast</h2>
         <div id="weatherforecast"></div>
 
 
-
-
         <h2>Contact Us</h2>
-        <section class="section4">
+        <section class="contactus">
 
 
             <div>
@@ -143,9 +149,14 @@
                 <span id="lu"></span>
             </p>
             <script src="js/footerscript.js"></script>
-        </footer>
-
-    </div>
+            <div class="social">
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png"  height="50" width="50" alt="facebook logo" /></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" height="50" width="50" alt="twitter logo" /></a>
+                <a href="https://www.pinterest.com" target="_blank"><img src="images/pinterest.png" height="50" width="50" alt="pinterest logo" /></a>
+            </div>
+    
+        
+    </footer>
     <script src="js/scripts.js"></script>
     <script src="js/bannerscript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

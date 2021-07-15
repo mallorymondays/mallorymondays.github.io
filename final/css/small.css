@@ -11,16 +11,16 @@ html {
   box-sizing: border-box;
 }
 
-/*----------- BODY --------------*/
+/*----------- BODY ALL --------------*/
 body {
   font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/*----------- HEADER --------------*/
+/*----------- HEADER ALL --------------*/
 
 div#message {
-  background-color: #E76f51;
+  background-color: #e76f51;
   color: white;
   text-align: center;
   padding: 0.5rem 2%;
@@ -38,11 +38,13 @@ div.hideme {
 header {
   padding: 1rem;
   background-color: white;
+ 
 }
 header img {
   float: left;
   margin-right: 10px;
- 
+  width: auto;
+  margin-left: -10px;  
 }
 header h1 {
   margin: 0;
@@ -56,13 +58,14 @@ header h2 {
   font-size: 1rem;
 }
 
+/*----------- NAVIGATION ALL --------------*/
 
-/*----------- NAVIGATION --------------*/
-
-.navWrap,
-.footWrap {
+.footWrap, .navWrap {
   background-color: #107665;
-}
+   
+  }
+  
+
 
 nav button {
   margin: 0.2rem 2%;
@@ -70,6 +73,7 @@ nav button {
   border: none;
   font-size: 1.6rem;
   color: white;
+  
 }
 
 nav ul {
@@ -83,8 +87,7 @@ nav ul li a {
   color: white;
   padding: 0.8rem 2%;
   text-decoration: none;
-  font-size: 0.9rem;
-  text-align: left;
+  text-align: center;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -100,18 +103,10 @@ nav ul li.active a {
 nav ul.hide {
   display: none;
 }
-/*----------- MAIN --------------*/
-.thankyou {
-  text-align: center;
-  margin-top: 100px;
+/*----------- MAIN ALL --------------*/
+main h2,
+h1 {
   color: #0d9681;
-}
-
-main h2, h1 {
-  color: #0d9681;
-}
-.fiveday {
-  display: none;
 }
 
 main {
@@ -121,102 +116,62 @@ main {
   max-width: 820px;
   margin: 0 auto;
 }
-.herodiv img {
-  width: 100%;
-  height: auto;
-  box-shadow: 0 0 10px #333;
+
+/*----------- JOIN PAGE --------------*/
+
+.joinimage {
+  display: none;
+}
+
+.membership {
+  padding: 1em;
+  grid-gap: 1em;
+}
+
+.membership div {
+  margin: 1em;
+}
+
+#nonprofit {
+  background-color: #32bda6;
+  padding: 1em;
+  color: black;
+  border: 1px solid #227c6d;
   border-radius: 10px;
-
 }
-.herodiv {
-  position: relative;
-  max-width: 100%;
-}
-
-section.section1 {
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  background-color: white;
-  padding: 5px;
-  box-shadow: 0 0 30px #333;
-  opacity: 0.8;
+#bronze {
+  background-color: #edbc7c;
+  padding: 1em;
+  color: black;
+  border: 1px solid #b49060;
+  border-radius: 10px;
 }
 
-#weatherforecast {
-  display: grid;
-  margin: 0;
-  padding: 40px;
+#silver {
+  background-color: #f8e1c2;
+  padding: 1em;
+  color: black;
+  border: 1px solid #dbc7ad;
+  border-radius: 10px;
 }
 
-#weatherforecast div {
+#gold {
+  background-color: #facb1b;
+  padding: 1em;
+  color: black;
+  border: 1px solid #dfb318;
+  border-radius: 10px;
+}
+
+.thankyou {
   text-align: center;
-  border: 1px solid;
-  margin: 6px;
+  margin-top: 100px;
+  color: #0d9681;
 }
 
-#weatherforecast div h5 {
-  background-color: #fae080;
-  margin: 0px;
-  padding: 1rem 0;
-  font-weight: lighter;
-  font-size: 16px;
-}
-#weatherforecast img {
-  margin: 0;
-  max-width: 75%;
-}
-
-.section3 {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-.section3 img {
-  display: block;
-  width: 100%;
-  height: auto;
-  box-shadow: 0 0 10px #333;
-  margin-top: -10px;
-}
-
-.section4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 20px;
-  border: solid 1px #107665;
-   padding: 0.8rem 2%;
-  margin: 2rem 0;
-  border-radius: 10px;
-}
-.section4 iframe {
-  width: 100%;
-  height: auto;
-  box-shadow: 0 0 10px #333;
-  grid-column: 1/3;
-  margin-top: 13px;
-}
-
-.gallerydiv {
-  padding-bottom: 1em;
-  padding-top: 1em;
-  
-}
-
-figure img[data-src] {
-  filter: blur(0.2em);
-}
-
-figure img {
-  filter: blur(0em);
-  border-radius: 10px;
-}
-
-/*----------- EVENTS --------------*/
-.eventbox {
-  border: solid 1px #107665;
-  border-radius: 10px;
-  padding: 0.8rem 2%;
-  margin: 2rem 0;
+/*----------- CONTACT PAGE --------------*/
+.email {
+  display: none;
 }
 
 /*----------- FORM --------------*/
@@ -277,7 +232,7 @@ form input.submitBtn {
   width: 96%;
   max-width: 20rem;
 }
-.contactBtn{
+.contactBtn {
   border: none;
   background-color: #fae080;
   color: black;
@@ -295,6 +250,119 @@ form label.top input:required:valid {
   border-left: #0d9681 solid 6px;
 }
 
+/*----------- HOME PAGE --------------*/
+
+.joinbtn img {
+  display: none;
+}
+
+.joinbtnsmall img{
+  display: block;
+  width: 80%;
+  margin: 1em;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.contactus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+  border: solid 1px #107665;
+  padding: 0.8rem 2%;
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+.contactus iframe {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px #333;
+  grid-column: 1/3;
+  margin-top: 13px;
+}
+
+.fiveday {
+  display: none;
+}
+
+.herodiv img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+.herodiv {
+  position: relative;
+  max-width: 100%;
+}
+
+.weathersum { 
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 30px #333;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#weatherforecast {
+  display: grid;
+  margin: 0;
+  padding: 40px;
+}
+
+#weatherforecast div {
+  text-align: center;
+  border: 1px solid;
+  margin: 6px;
+}
+
+#weatherforecast div h5 {
+  background-color: #fae080;
+  margin: 0px;
+  padding: 1rem 0;
+  font-weight: lighter;
+  font-size: 16px;
+}
+#weatherforecast img {
+  margin: 0;
+  max-width: 75%;
+}
+
+.welcomecoc {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.welcomecoc img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -10px;
+  border-radius: 10px;
+}
+
+/*----------- DIRECTORY PAGE --------------*/
+
+.gallerydiv {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.gallerydiv figcaption {
+  text-align: center;
+  padding: 10px;
+}
+
+figure img[data-src] {
+  filter: blur(0.2em);
+}
+
+figure img {
+  filter: blur(0em);
+  border-radius: 50%;
+}
+
 /*----------- HOME CARDS --------------*/
 
 #cards {
@@ -303,8 +371,8 @@ form label.top input:required:valid {
   margin: 30px 0px 30px 0px;
 }
 #cards div {
-  border: solid 1px #107665;
-  padding: 1rem;
+  border: dotted 4px #107665;
+  padding: 20px;
   margin: 10px;
   border-radius: 10px;
 }
@@ -315,8 +383,9 @@ form label.top input:required:valid {
   margin: 0;
 }
 #cards div section h3 {
-  font-size: 19px;
+  font-size: 14px;
   margin: 0;
+  margin-bottom: -15px;
 }
 #cards div figure {
   margin: 0;
@@ -326,7 +395,42 @@ form label.top input:required:valid {
   width: 100%;
   height: auto;
   box-shadow: 0 0 10px #333;
+  border-radius: 50%;
 }
+
+/*----------- MESA PAGE --------------*/
+
+th {
+  background-color: #fae080;
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Source Sans Pro", sans-serif;
+}
+td {
+  text-align: center;
+  font-size: 15.5px;
+  padding: 15px;
+}
+
+table {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 3em;
+}
+tr:nth-child(even) td {
+  background-color: #32bda6;
+}
+
+tr:nth-child(odd) td {
+  background-color: #107665;
+  color: white;
+}
+.aboutmesa img {
+  border-radius: 50%;
+  margin-left: 1em;
+}
+
 /*----------- FOOTER --------------*/
 footer {
   background-color: #107665;
@@ -338,6 +442,7 @@ footer {
 footer a {
   color: white;
 }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
