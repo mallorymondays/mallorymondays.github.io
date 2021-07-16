@@ -1,9 +1,10 @@
 {
-    "business": [
+    "directory": [
       {
         "name": "Mesa Roofing",
         "photo": "mesaroofing.jpg",
         "website": "www.mesaroofingaz.com"
+        
       },
       {
         "name": "Barro's Pizza",
@@ -21,6 +22,7 @@
         "name": "Big O Tires",
         "photo": "bigotires.jpg",
         "website": "www.bigotires.com"
+        
       },
 
       {
