@@ -62,15 +62,11 @@ nav ul li a {
 
 
   /*-----------HOME PAGE --------------*/
-  #weatherforecast {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: 0;
-  }
+  
   .weathersum {
     position: absolute;
     top: 5em;
-    left: 55em;
+    left: 50em;
     background-color: white;
     padding: 10px;
     box-shadow: 0 0 30px #333;
@@ -79,7 +75,10 @@ nav ul li a {
     text-align: center;
   }
   
-
+  #weatherforecast {
+    margin-left: 16em;
+    
+  }
    /*----------- HOME CARDS --------------*/
    #cards {
     display: grid;
@@ -102,6 +101,10 @@ nav ul li a {
   .aboutmesa{
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .aboutmesa img {
+    margin-top: -15px;
   }
   /*----------- FOOTER --------------*/
 }

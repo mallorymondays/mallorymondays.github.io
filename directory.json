@@ -1,0 +1,56 @@
+{
+    "business": [
+      {
+        "name": "Mesa Roofing",
+        "photo": "mesaroofing.jpg",
+        "website": "www.mesaroofingaz.com"
+      },
+      {
+        "name": "Barro's Pizza",
+        "photo": "barros.jpg",
+        "website": "www.barrospizza.com"
+         
+      },
+      {
+        "name": "Big O Tires",
+        "photo": "bigotires.jpg",
+        "website": "www.bigotires.com"
+      },
+
+      {
+        "name": "Big O Tires",
+        "photo": "bigotires.jpg",
+        "website": "www.bigotires.com"
+      },
+
+      {
+        "name": "Big O Tires",
+        "photo": "bigotires.jpg",
+        "website": "www.bigotires.com"
+      },
+
+      {
+        "name": "Big O Tires",
+        "photo": "bigotires.jpg",
+        "website": "www.bigotires.com"
+      },
+
+      {
+        "name": "Big O Tires",
+        "photo": "bigotires.jpg",
+        "website": "www.bigotires.com"
+      },
+
+      {
+        "name": "Big O Tires",
+        "photo": "bigotires.jpg",
+        "website": "www.bigotires.com"
+      },
+
+      {
+        "name": "Big O Tires",
+        "photo": "bigotires.jpg",
+        "website": "www.bigotires.com"
+      }
+    ]
+  }
