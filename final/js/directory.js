@@ -6,7 +6,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const directory = jsonObject["directory"];
-    
+    console.log (directory);
 
     for (let i = 0; i < directory.length; i++) {
       if (i == 0 || i == 1 || i == 2) {
@@ -34,7 +34,7 @@ fetch(requestURL)
         card.appendChild(info);
         card.appendChild(image);
 
-        document.getElementById("directory").appendChild(card);
+        document.getElementById("gallery").appendChild(card);
       }
     }
   });
