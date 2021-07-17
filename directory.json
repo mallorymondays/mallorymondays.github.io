@@ -3,7 +3,7 @@
       {
         "name": "360 Thrift",
         "photo": "360thrift.jpg",
-        "website": "href=www.360thriftstores.com"
+        "website": "www.360thriftstores.com"
         
       },
       {
@@ -40,19 +40,19 @@
       {
         "name": "Pete's Fish and Chips",
         "photo": "petesfish.jpg",
-        "website": "petesfishandchips.com"
+        "website": "www.petesfishandchips.com"
       },
 
       {
         "name": "Pita Jungle",
         "photo": "pitajungle.jpg",
-        "website": "itajungle.com"
+        "website": "www.itajungle.com"
       },
 
       {
         "name": "Pomeroys Clothing",
         "photo": "pomeroys.jpg",
-        "website": "pomeroysclothing.com"
+        "website": "www.pomeroysclothing.com"
       }
     ]
   }
