@@ -379,6 +379,10 @@ figure.board img {
   text-decoration: none;
   color: #dfb318;
 }
+
+ #directorycards div section h3 {
+   margin: 0;
+ }
 /*----------- HOME CARDS/ DIRECTORY CARDS --------------*/
 
 #cards{
@@ -388,20 +392,18 @@ figure.board img {
 }
 #cards div {
   padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
-}
+ }
 #cards div section,
 #directorycards {
   text-align: center;
+  padding: 20px;
 }
 #cards div section h2 {
   margin: 0;
 }
-#cards div section h3 {
+#cards div section h3{
   font-size: 14px;
   margin: 0;
-  margin-bottom: -15px;
 }
 #cards div figure{
   margin: 0;

@@ -3,56 +3,74 @@
       {
         "name": "360 Thrift",
         "photo": "360thrift.jpg",
-        "website": "www.360thriftstores.com"
+        "website": "www.360thriftstores.com",
+        "address":"1102 N. Higley Rd",
+        "phone": "602.429.3898"
         
       },
       {
         "name": "Barro's Pizza",
         "photo": "barros.jpg",
-        "website": "www.barrospizza.com"
+        "website": "www.barrospizza.com",
+        "address":"192 N. Brown Rd",
+        "phone": "480.429.3898"
         
       },
       {
         "name": "Big O Tires",
         "photo": "bigotires.jpg",
-        "website": "www.bigotires.com"
+        "website": "www.bigotires.com",
+        "address":"9832 W. 66th St",
+        "phone": "480.969.3833"
       },  
 
       {
         "name": "Arizona Golf Resort",
         "photo": "golfresort.jpg",
-        "website": "www.arizonagolfresort.com"
+        "website": "www.arizonagolfresort.com",
+        "address":"443 S. McKellups Rd",
+        "phone": "480.567.1277"
       },
 
       {
         "name": "Gotham City",
         "photo": "gothamcity.jpg",
-        "website": "www.batcavecomic.com"
+        "website": "www.batcavecomic.com",
+        "address":"502 E. Hope St",
+        "phone": "602.378.9990"
       },
 
       {
         "name": "Mesa Roofing",
         "photo": "mesaroofing.jpg",
-        "website": "www.mesaroofingaz.com"
+        "website": "www.mesaroofingaz.com",
+        "address":"3015 N. Ravine Rd",
+        "phone": "480.969.5517"
         
       },
       
       {
         "name": "Pete's Fish and Chips",
         "photo": "petesfish.jpg",
-        "website": "www.petesfishandchips.com"
+        "website": "www.petesfishandchips.com",
+        "address":"1211 W. Horne Ave",
+        "phone": "480.124.3290"
       },
 
       {
         "name": "Pita Jungle",
         "photo": "pitajungle.jpg",
-        "website": "www.pitajungle.com"
+        "website": "www.pitajungle.com",
+        "address":"12 N. Main St",
+        "phone": "480.982.0023"
       },
 
       {
         "name": "Pomeroys Clothing",
         "photo": "pomeroys.jpg",
-        "website": "www.pomeroysclothing.com"
+        "website": "www.pomeroysclothing.com",
+        "address":"8117 E. West Place",
+        "phone": "480.739.1119"
       }
     ]
   }

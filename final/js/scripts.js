@@ -24,7 +24,7 @@ fetch(requestURL)
 
         let name = document.createElement("h2");
         let motto = document.createElement("h3");
-        let website = document.createElement("p");
+        let website = document.createElement("a");
         let photo = document.createElement("img");
 
         name.textContent = business[i].name;
@@ -36,6 +36,9 @@ fetch(requestURL)
         photo.setAttribute("alt", business[i].name);
         photo.setAttribute("width", "200");
         photo.setAttribute("height", "200");
+
+        website.setAttribute("href", "https://" + business[i].website);
+        website.setAttribute("target", "_blank");
 
         info.appendChild(name);
         info.appendChild(motto);
