@@ -6,7 +6,7 @@ function adjustRating(rating) {
   document.getElementById("ratingvalue").innerHTML = rating;
 }
 const today = new Date();
-const requestURL = "https://mallorymondays.github.io/business.json";
+const requestURL = "json/business.json";
 
 fetch(requestURL)
   .then(function (response) {

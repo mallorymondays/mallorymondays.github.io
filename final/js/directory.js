@@ -1,6 +1,6 @@
 
 
-const requestdURL = "https://mallorymondays.github.io/directory.json";
+const requestdURL = "json/directory.json";
 
 fetch(requestdURL)
   .then(function (response) {
@@ -27,6 +27,9 @@ fetch(requestdURL)
           photo.setAttribute("alt", directory[i].name);
           photo.setAttribute("width", "300");
           photo.setAttribute("height", "300");
+
+          website.setAttribute("href", "https://" + directory[i].website);
+          website.setAttribute("target", "_blank");
   
           info.appendChild(name);
           info.appendChild(website);

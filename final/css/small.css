@@ -360,32 +360,47 @@ form label.top input:required:valid {
   padding: 10px;
 }
 
-figure img[data-src] {
+figure.board img[data-src] {
   filter: blur(0.2em);
 }
 
-figure img {
+ figure.board img {
   filter: blur(0em);
   border-radius: 50%;
   box-shadow: 0 0 10px #333;
 }
 
-/*----------- HOME CARDS --------------*/
+#directorycards a:link{
+  text-decoration: none;
+  color:black;
 
-#cards {
+}
+#directorycards a:visited{
+  text-decoration: none;
+  color:black ;
+}
+
+  #directorycards a:hover{
+    text-decoration: none;
+    color:#dfb318;
+  
+}
+/*----------- HOME CARDS/ DIRECTORY CARDS --------------*/
+
+#cards, #directorycards {
   background-color: white;
   padding: 10px;
   margin: 30px 0px 30px 0px;
 }
-#cards div {
+#cards div , #directorycards {
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
 }
-#cards div section {
+#cards div section, #directorycards {
   text-align: center;
 }
-#cards div section h2 {
+#cards div section h2  {
   margin: 0;
 }
 #cards div section h3 {
@@ -393,11 +408,11 @@ figure img {
   margin: 0;
   margin-bottom: -15px;
 }
-#cards div figure {
+#cards div figure , #directorycards{
   margin: 0;
   width: 100%;
 }
-#cards div figure img {
+#cards div figure img, #directorycards img {
   width: 100%;
   height: auto;
   box-shadow: 0 0 10px #333;
