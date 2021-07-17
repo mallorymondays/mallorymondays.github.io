@@ -16,7 +16,7 @@ fetch(requestdURL)
           let image = document.createElement("figure");
   
           let name = document.createElement("h2");
-          let website = document.createElement("p");
+          let website = document.createElement("a");
           let photo = document.createElement("img");
   
           name.textContent = directory[i].name;
