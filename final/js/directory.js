@@ -1,3 +1,7 @@
+function toggleGrid() {
+  document.getElementById("gridbox").classList.toggle("grid");
+}
+
 const requestdURL = "json/directory.json";
 
 fetch(requestdURL)
