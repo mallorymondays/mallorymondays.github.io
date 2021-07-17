@@ -327,7 +327,7 @@ form label.top input:required:valid {
   font-weight: lighter;
   font-size: 16px;
   border: 1px solid;
-  
+  border-radius: 10px;
 }
 #weatherforecast img {
   margin: 0;
@@ -403,7 +403,7 @@ figure.board img {
   margin: 0;
   margin-bottom: -15px;
 }
-#cards div figure {
+#cards div figure{
   margin: 0;
   width: 100%;
 }
