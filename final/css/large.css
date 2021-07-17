@@ -52,8 +52,10 @@ nav ul li a {
   
   }
   
-  .gallery img:hover {box-shadow: 0 0 50px #333;}
 
+  #directorycards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   /*----------- JOIN PAGE --------------*/
 
   .membership div{
@@ -76,7 +78,7 @@ nav ul li a {
   }
   
   #weatherforecast {
-    margin-left: 16em;
+    margin-left: 18em;
     
   }
    /*----------- HOME CARDS --------------*/

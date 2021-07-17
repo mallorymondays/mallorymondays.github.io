@@ -1,8 +1,8 @@
 
 
-const requestURL = "https://mallorymondays.github.io/directory.json";
+const requestdURL = "https://mallorymondays.github.io/directory.json";
 
-fetch(requestURL)
+fetch(requestdURL)
   .then(function (response) {
     return response.json();
   })
@@ -10,7 +10,7 @@ fetch(requestURL)
     const directory = directoryCard["directory"];
       
        for (let i = 0; i < directory.length; i++) {
-        if (i == 0 || i == 1 || i == 2) {
+        if (i == 0 || i == 1 || i == 2 || i == 3|| i == 4|| i == 5|| i == 6|| i == 7|| i == 8|| i == 9) {
           let card = document.createElement("div");
           let info = document.createElement("section");
           let image = document.createElement("figure");
@@ -25,8 +25,8 @@ fetch(requestURL)
   
           photo.setAttribute("src", "images/" + directory[i].photo);
           photo.setAttribute("alt", directory[i].name);
-          photo.setAttribute("width", "200");
-          photo.setAttribute("height", "200");
+          photo.setAttribute("width", "300");
+          photo.setAttribute("height", "300");
   
           info.appendChild(name);
           info.appendChild(website);

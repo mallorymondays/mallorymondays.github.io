@@ -24,7 +24,8 @@
 </head>
 
 <body>
-    <div id="message">Office Closes at 5:00 pm on Fridays! Have a great weekend! </div>
+    <div id="message"> <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+       <strong>ALERT! </strong> Heat advisory for Maricopa County until July 25th  </div>
 
     <header class="clearfix"> <a href="index.html">
             <img src="images/mesacoclogo.jpg" height="90" width="90" alt="site logo cactus">
@@ -97,6 +98,9 @@
 
             </p>
         </section>
+
+        <div id="weatherforecast"></div>
+
         <section class="joinbtn"> <a href="join.html">
                 <img src="images/joinnow.jpg" height="97" width="280" alt="join button">
             </a>
@@ -106,11 +110,56 @@
             </a>
         </section>
 
-        <div id="weatherforecast"></div>
+        
 
         <article id="cards"> </article>
 
+        <h2>Upcoming Events</h2>
+        <table>
+            <colgroup>
+                <col>
+                <col style="width:100px;">
+                <col>
+            </colgroup>
+            <tr>
 
+                <th>Date</th>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+            <tr>
+
+                <td>07/22/2021</td>
+                <td>4:00-5:00 PM</td>
+                <td style="text-align: left;">Museum & Cultural Advisory Board Meeting: 3rd Floor Studio South
+                    Conference Room, Mesa Arts Center 1
+                    E. Main Street Mesa, Arizona 85201</td>
+
+            </tr>
+            <tr>
+
+                <td>07/24/2021</td>
+                <td>7:00-11:00 AM</td>
+                <td style="text-align: left;">Downtown Farmers Market: Mesa Arts Center 1 East Main Street Mesa, Arizona
+                    85201</td>
+
+            </tr>
+            <tr>
+
+                <td>07/24/2021</td>
+                <td>5:30-9:00 PM</td>
+                <td style="text-align: left;">Mesa Feastival Forest: Pioneer Park 526 E. Main St. Mesa, Arizona 85203
+            </tr>
+            <tr>
+
+                <td>07/26/2021</td>
+                <td>10:00-10:30 AM</td>
+                <td style="text-align: left;">Children's Library Grand Opening: Main Library 64 E. 1st St. Mesa, Arizona
+                    85201
+                </td>
+
+            </tr>
+            </table>
 
         <section class="contactus">
 
@@ -153,10 +202,10 @@
         <footer>
             <p>
                 &copy; <span id="year"></span> &bull; Mallory Willyerd &bull; WDD 230 | <a
-                    href="https://mallorymondays.github.io/">Main Portal Page</a> |
+                    href="attribution.html">Attribution Page</a> |
                 <span id="lu"></span>
             </p>
-            <script src="js/footerscript.js"></script>
+            
 
 
 
@@ -167,6 +216,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/fontload.js"></script>
     <script src="js/mesa.js"></script>
+    <script src="js/footerscript.js"></script>
 
 </body>
 

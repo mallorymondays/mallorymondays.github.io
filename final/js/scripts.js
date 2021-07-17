@@ -5,7 +5,7 @@ function toggleMenu() {
 function adjustRating(rating) {
   document.getElementById("ratingvalue").innerHTML = rating;
 }
-
+const today = new Date();
 const requestURL = "https://mallorymondays.github.io/business.json";
 
 fetch(requestURL)

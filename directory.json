@@ -1,9 +1,9 @@
 {
     "directory": [
       {
-        "name": "Mesa Roofing",
-        "photo": "mesaroofing.jpg",
-        "website": "www.mesaroofingaz.com"
+        "name": "360 Thrift",
+        "photo": "360thrift.jpg",
+        "website": "www.360thriftstores.com"
         
       },
       {
@@ -16,43 +16,48 @@
         "name": "Big O Tires",
         "photo": "bigotires.jpg",
         "website": "www.bigotires.com"
+      },  
+
+      {
+        "name": "Arizona Golf Resort",
+        "photo": "golfresort.jpg",
+        "website": "www.arizonagolfresort.com"
       },
 
       {
-        "name": "Big O Tires",
-        "photo": "bigotires.jpg",
-        "website": "www.bigotires.com"
+        "name": "Gotham City",
+        "photo": "gothamcity.jpg",
+        "website": "www.batcavecomic.com"
+      },
+
+      {
+        "name": "Mesa Roofing",
+        "photo": "mesaroofing.jpg",
+        "website": "www.mesaroofingaz.com"
         
       },
-
+      
       {
-        "name": "Big O Tires",
-        "photo": "bigotires.jpg",
-        "website": "www.bigotires.com"
+        "name": "Pete's Fish and Chips",
+        "photo": "petesfish.jpg",
+        "website": "petesfishandchips.com"
       },
 
       {
-        "name": "Big O Tires",
-        "photo": "bigotires.jpg",
-        "website": "www.bigotires.com"
+        "name": "Pita Jungle",
+        "photo": "pitajungle.jpg",
+        "website": "itajungle.com"
       },
 
       {
-        "name": "Big O Tires",
-        "photo": "bigotires.jpg",
-        "website": "www.bigotires.com"
-      },
-
-      {
-        "name": "Big O Tires",
-        "photo": "bigotires.jpg",
-        "website": "www.bigotires.com"
-      },
-
-      {
-        "name": "Big O Tires",
-        "photo": "bigotires.jpg",
-        "website": "www.bigotires.com"
+        "name": "Pomeroys Clothing",
+        "photo": "pomeroys.jpg",
+        "website": "pomeroysclothing.com"
       }
     ]
   }
+
+  
+           
+           
+  
