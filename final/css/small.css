@@ -32,7 +32,7 @@ div.showme {
 }
 .closebtn {
   margin-right: 25px;
-   cursor: pointer;
+  cursor: pointer;
   transition: 0.3s;
 }
 
@@ -258,7 +258,7 @@ form label.top input:required:valid {
 
 .joinbtn img {
   display: none;
- }
+}
 
 .joinbtnsmall img {
   display: block;
@@ -303,8 +303,6 @@ form label.top input:required:valid {
 .weathersum {
   text-align: center;
   margin-top: 10px;
-
-  
 }
 .weathersum hr {
   background-color: #ffd640;
@@ -314,6 +312,7 @@ form label.top input:required:valid {
   display: grid;
   margin: 0;
   padding: 70px;
+  
 }
 
 #weatherforecast div {
@@ -328,17 +327,15 @@ form label.top input:required:valid {
   font-weight: lighter;
   font-size: 16px;
   border: 1px solid;
+  
 }
 #weatherforecast img {
   margin: 0;
   max-width: 50%;
-  
- 
 }
 
 .welcomecoc {
-    padding-top: 10px;
-  
+  padding-top: 10px;
 }
 .welcomecoc img {
   display: block;
@@ -350,13 +347,12 @@ form label.top input:required:valid {
 
 /*----------- DIRECTORY PAGE --------------*/
 
-.gallerydiv {
+.boarddiv {
   padding-bottom: 1em;
   padding-top: 1em;
 }
 
-.gallerydiv figcaption {
-  text-align: center;
+.boarddiv figcaption {
   padding: 10px;
 }
 
@@ -364,43 +360,42 @@ figure.board img[data-src] {
   filter: blur(0.2em);
 }
 
- figure.board img {
+figure.board img {
   filter: blur(0em);
   border-radius: 50%;
   box-shadow: 0 0 10px #333;
 }
 
-#directorycards a:link{
+#directorycards a:link {
   text-decoration: none;
-  color:black;
-
+  color: black;
 }
-#directorycards a:visited{
+#directorycards a:visited {
   text-decoration: none;
-  color:black ;
+  color: black;
 }
 
-  #directorycards a:hover{
-    text-decoration: none;
-    color:#dfb318;
-  
+#directorycards a:hover {
+  text-decoration: none;
+  color: #dfb318;
 }
 /*----------- HOME CARDS/ DIRECTORY CARDS --------------*/
 
-#cards, #directorycards {
+#cards{
   background-color: white;
   padding: 10px;
   margin: 30px 0px 30px 0px;
 }
-#cards div , #directorycards {
+#cards div {
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
 }
-#cards div section, #directorycards {
+#cards div section,
+#directorycards {
   text-align: center;
 }
-#cards div section h2  {
+#cards div section h2 {
   margin: 0;
 }
 #cards div section h3 {
@@ -408,11 +403,12 @@ figure.board img[data-src] {
   margin: 0;
   margin-bottom: -15px;
 }
-#cards div figure , #directorycards{
+#cards div figure {
   margin: 0;
   width: 100%;
 }
-#cards div figure img, #directorycards img {
+#cards div figure img,
+#directorycards div figure img {
   width: 100%;
   height: auto;
   box-shadow: 0 0 10px #333;
@@ -445,8 +441,7 @@ tr:nth-child(even) td {
 }
 
 tr:nth-child(odd) td {
-  background-color:  #32bda6;
-  
+  background-color: #32bda6;
 }
 .aboutmesa img {
   border-radius: 50%;

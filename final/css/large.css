@@ -47,7 +47,7 @@ nav ul li a {
 
 /*----------- DIRECTORY PAGE --------------*/
 
-  .gallerydiv {
+  .boarddiv {
     grid-template-columns: 1fr 1fr 1fr;
   
   }
@@ -67,7 +67,7 @@ nav ul li a {
   
   .weathersum {
     position: absolute;
-    top: 5em;
+    top: 4.2em;
     left: 50em;
     background-color: white;
     padding: 10px;
