@@ -20,8 +20,8 @@ body {
 /*----------- HEADER ALL --------------*/
 
 div#message {
-  background-color: #e76f51;
-  color: white;
+  background-color: #f07455;
+  color: black;
   text-align: center;
   padding: 1rem;
   font-size: 20px;
@@ -37,7 +37,7 @@ div.showme {
 }
 
 .closebtn:hover {
-  color: black;
+  color: white;
 }
 
 div.hideme {
@@ -94,6 +94,9 @@ nav ul li a {
   text-decoration: none;
   text-align: center;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+nav ul li a:nth-child(4){
+  color: black;
 }
 
 nav ul li a:hover {
@@ -161,7 +164,7 @@ main {
 }
 
 #gold {
-  background-color: #facb1b;
+  background-color: #ffd640;
   padding: 1em;
   color: black;
   border: 1px solid #dfb318;
@@ -228,7 +231,7 @@ form label.sbs {
 
 form input.submitBtn {
   border: none;
-  background-color: #facb1b;;
+  background-color: #ffd640;;
   color: black;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -238,7 +241,7 @@ form input.submitBtn {
 }
 .contactBtn {
   border: none;
-  background-color: #facb1b;;
+  background-color: #ffd640;;
   color: black;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -380,7 +383,7 @@ figure.board img {
 
 #directorycards a:hover {
   text-decoration: none;
-  color: #facb1b;;
+  color: #ffd640;
 }
 
  #directorycards div section h3 {
