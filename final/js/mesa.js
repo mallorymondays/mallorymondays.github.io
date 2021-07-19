@@ -63,7 +63,7 @@ const currentapiURL =
 fetch(currentapiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
-   console.log (weatherInfo);
+   
 
     document.getElementById("currentTemp").innerHTML = Math.round(
       weatherInfo.current.temp
