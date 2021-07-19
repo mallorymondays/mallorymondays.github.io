@@ -64,7 +64,7 @@
   .joinbtn img {
     display: block;
     width: 60%;
-    margin-top: 3em;
+    margin-top: 4em;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -86,9 +86,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
-
-
-    max-width: 50%;
+    max-width: 79%;
     padding: 5px;
   }
 
@@ -135,6 +133,36 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .aboutmesa img {
+    
+   float: right;
+   margin-top: 10px;
+   margin-left: 25px;
+  }
+
+  .oldmesaphotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px; 
+  }
+
+  .oldmesaphotos img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 50px;
+  }
+
+  .joinbtnmesa img {
+    display: block;
+    width: 60%;
+    margin: 1em 0em 1em 0em;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /*----------- FOOTER --------------*/
 
   /* end of media query */

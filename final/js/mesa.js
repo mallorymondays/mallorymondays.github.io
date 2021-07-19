@@ -1,3 +1,4 @@
+
 const todayDayNumber = today.getDay();
 
 const myweekday = new Array(7);

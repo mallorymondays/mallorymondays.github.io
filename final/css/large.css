@@ -49,7 +49,7 @@ nav ul li a {
 
   .boarddiv {
     grid-template-columns: 1fr 1fr 1fr;
-  
+     
   }
   
 
@@ -86,6 +86,7 @@ nav ul li a {
    #cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
   }
   #cards div {
     display: block;
@@ -100,15 +101,11 @@ nav ul li a {
     border-radius: 50%;}
     
   /*----------- MESA PAGE --------------*/
-  
-  .aboutmesa{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .joinbtnmesa img {
+    margin: 5em 0em 3em 0em;
+    margin-left: auto;
+    margin-right: auto;
   }
-
-  .aboutmesa img {
-    margin-top: -15px;
-  }
-  /*----------- FOOTER --------------*/
+    /*----------- FOOTER --------------*/
 }
 /* end of media query */

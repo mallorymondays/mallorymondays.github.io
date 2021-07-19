@@ -1,3 +1,4 @@
+
 function toggleMenu() {
   document.getElementById("primNav").classList.toggle("hide");
 }
@@ -5,6 +6,7 @@ function toggleMenu() {
 function adjustRating(rating) {
   document.getElementById("ratingvalue").innerHTML = rating;
 }
+
 const today = new Date();
 const requestURL = "json/business.json";
 
