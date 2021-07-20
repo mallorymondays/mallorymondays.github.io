@@ -15,7 +15,7 @@ const apiURL =
 fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
-    console.log(weatherInfo);
+   
 
     let mylist = weatherInfo.daily;
     let forecastDay = todayDay;

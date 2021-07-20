@@ -82,6 +82,10 @@ nav ul li a {
     margin-right: auto;
     
   }
+
+  .joinbtn img {
+    width: 60%;
+  }
    /*----------- HOME CARDS --------------*/
    #cards {
     display: grid;
