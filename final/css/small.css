@@ -95,9 +95,6 @@ nav ul li a {
   text-align: center;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-nav ul li a:nth-child(4) {
-  color: black;
-}
 
 nav ul li a:hover {
   background-color: #32bda6;
@@ -138,6 +135,7 @@ main {
 
 .membership div {
   margin: 1em;
+  box-shadow: 0 0 5px rgb(128, 128, 128);
 }
 
 #nonprofit {
@@ -301,10 +299,6 @@ form label.top input:required:valid {
   margin: auto;
 }
 
-.fiveday {
-  display: none;
-}
-
 .herodiv img {
   width: 100%;
   height: auto;
@@ -326,7 +320,6 @@ form label.top input:required:valid {
 
 #weatherforecast {
   display: grid;
-  margin-top: 50px;
   padding: 30px 50px 30px 50px;
 }
 

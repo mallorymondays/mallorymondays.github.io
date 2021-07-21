@@ -56,11 +56,7 @@ nav ul li a {
 
   /*----------- JOIN PAGE --------------*/
 
-  .membership div{
-    box-shadow: 0 0 5px rgb(128, 128, 128);
-  }
-
-
+ 
   /*-----------HOME PAGE --------------*/
   
   .weathersum {
@@ -73,12 +69,6 @@ nav ul li a {
     opacity: 0.8;
     border-radius: 10px;
     text-align: center;
-  }
-  
-  #weatherforecast {
-    margin-left: auto;
-    margin-right: auto;
-    
   }
 
   .joinbtn img {

@@ -17,8 +17,7 @@
   header,
   main {
     max-width: 64rem;
-    margin: auto;
-  }
+    }
 
   /*----------- MAIN --------------*/
 
@@ -85,16 +84,14 @@
     grid-column: 3/4;
   }
 
-  .fiveday {
-    display: grid;
-  }
+  
   #weatherforecast {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
     max-width: 79%;
     padding: 5px;
+    margin-top: 50px;
   }
 
   .welcomecoc img {
