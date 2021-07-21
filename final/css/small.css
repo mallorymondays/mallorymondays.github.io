@@ -131,7 +131,6 @@ main {
   display: none;
 }
 
-
 .membership {
   padding: 1em;
   grid-gap: 1em;
@@ -260,6 +259,18 @@ form label.top input:required:valid {
 
 /*----------- HOME PAGE --------------*/
 
+
+
+.eventsbutton {
+  background-color: #32bda6;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #227c6d;
+  margin-bottom: 35px;
+  width: 100%;
+}
+
 .joinbtn img {
   display: none;
 }
@@ -275,6 +286,7 @@ form label.top input:required:valid {
 .contactus {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column: 1/3;
   margin-bottom: 20px;
   padding: 0.8rem 2%;
   margin: 2rem 0;
@@ -352,10 +364,9 @@ form label.top input:required:valid {
 .boarddiv {
   padding-bottom: 1em;
   padding-top: 1em;
-  
 }
 
-.board{
+.board {
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -375,16 +386,19 @@ figure.board img {
   box-shadow: 0 0 10px #333;
 }
 
-#directorycards a:link, #cards div section a:link {
+#directorycards a:link,
+#cards div section a:link {
   text-decoration: none;
   color: black;
 }
-#directorycards a:visited, #cards div section a:visited{
+#directorycards a:visited,
+#cards div section a:visited {
   text-decoration: none;
   color: black;
 }
 
-#directorycards a:hover, #cards div section a:hover{
+#directorycards a:hover,
+#cards div section a:hover {
   text-decoration: none;
   color: #ffd640;
 }
@@ -434,11 +448,13 @@ th {
   font-size: 20px;
   font-weight: normal;
   font-family: "Source Sans Pro", sans-serif;
+  border-radius: 10px 10px 0px 0px;
 }
 td {
   text-align: center;
   font-size: 15.5px;
   padding: 15px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 table {
@@ -459,7 +475,7 @@ tr:nth-child(odd) td {
   margin-right: auto;
   border-radius: 50%;
   box-shadow: 0 0 10px #333;
-}
+ }
 
 .oldmesaphotos img {
   width: 100%;
@@ -469,10 +485,9 @@ tr:nth-child(odd) td {
   border-radius: 50%;
   margin-bottom: 50px;
   box-shadow: 0 0 10px #333;
-  
 }
 
-.joinbtnmesa img{
+.joinbtnmesa img {
   display: none;
 }
 

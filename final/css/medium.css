@@ -57,6 +57,13 @@
 
   /*----------- HOME PAGE --------------*/
 
+  .eventbtnbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .eventsbutton {
+    grid-column: 2/3;}
+
   .joinbtnsmall img {
     display: none;
   }
@@ -131,6 +138,7 @@
     width: auto;
     margin-left: auto;
     margin-right: auto;
+   
   }
 
   .aboutmesa img {
