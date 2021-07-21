@@ -332,7 +332,7 @@ form label.top input:required:valid {
 
 #weatherforecast div {
   text-align: center;
-  margin: 4px;
+  margin: 10px;
   border: 1px solid;
   border-radius: 10px;
 }
