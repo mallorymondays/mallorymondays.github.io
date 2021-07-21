@@ -31,6 +31,8 @@ fetch(requestdURL)
         let website = document.createElement("a");
         let photo = document.createElement("img");
 
+        card.setAttribute("class", "cardinfo");
+
         name.textContent = directory[i].name;
         address.textContent = directory[i].address;
         phone.textContent = directory[i].phone;
@@ -57,3 +59,4 @@ fetch(requestdURL)
       }
     }
   });
+  

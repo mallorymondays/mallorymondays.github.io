@@ -53,9 +53,7 @@ nav ul li a {
   }
   
 
-  #directorycards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+
   /*----------- JOIN PAGE --------------*/
 
   .membership div{
