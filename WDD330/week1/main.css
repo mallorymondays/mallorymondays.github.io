@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*font-family: 'Lora', serif;*/
+
+/******* BODY ********/
+
+header {
+    background-color: #6495ED;
+}
+h1 {
+    color: #FAEBD7;
+}
+
+/******* MAIN ********/
+
+main{
+    background-color: #FAEBD7;
+}
+
+article {
+    background-color: white;
+}
