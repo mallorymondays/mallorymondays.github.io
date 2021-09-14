@@ -2,21 +2,142 @@
 
 /*font-family: 'Lora', serif;*/
 
-/******* BODY ********/
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
 
+/*----------- BODY ALL --------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /*----------- HEADER ALL --------------*/
+
+  h1, h2, h3, h4, h5, h6{
+    font-family:  'Lora', 'Serif';
+}
 header {
     background-color: #6495ED;
-}
-h1 {
-    color: #FAEBD7;
+    margin:0;
+    padding: 30px;
+    text-align:right;
+    color: #FAEBD7  
 }
 
-/******* MAIN ********/
+header a:visited{
+    color: #FAEBD7;
+}
+    header a:link {
+        text-decoration: none;
+        color: #FAEBD7;
+    }  
+
+    header a:active{
+        color: #DEB887;
+    }
+    header a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+    hr{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    li{
+        list-style: none;
+        margin:10px;
+    }
+    
+nav ul li a {
+    padding:0;
+    text-decoration: none;
+  }
+
+
+/*----------- MAIN ALL --------------*/
 
 main{
     background-color: #FAEBD7;
+    margin: 0;
+    padding: 40px;
+    width: 90%;
 }
+
+a:link{
+    color:#6495ED;
+    text-decoration: none;
+}
+ a:visited{
+    color:#6495ED;
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration: underline;
+ }    
 
 article {
     background-color: white;
+    margin:10px;
+    margin-top:20px;
+    padding: 15px;
+    box-shadow: #ccc 3px 3px 3px;
+    } 
+
+    article figure {
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      article img {
+        width: 50%;
+        margin: 0 auto;
+      }
+
+.post-content h2 a:link{
+    color:black;
+    text-decoration: none;
+}
+
+.post-content h2 a:active{
+    color:#DEB887;
+    text-decoration: none;
+
+}
+.post-content h2 a:visited{
+    color:black;
+    text-decoration: none;
+}
+.post-content h2 a:hover{
+    color:#6495ED;
+    text-decoration: underline;
+}
+
+.post-date{
+    margin:10px;
+    color: #999;
+}
+
+img{
+    text-align:center;
+    width: 90%;
+    margin-top:30px;
+}
+
+@media screen and (min-width: 700px){
+    body div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 0 20px;
+    }
+main {
+    grid-column: 2/5;
+}
+    header ul li {
+        font-size: 15px;
+    }
 }
