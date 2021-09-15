@@ -1,0 +1,68 @@
+*{-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+main {
+    margin: auto;
+    max-width: 750px;
+    display: block;
+    
+}
+
+header,footer {
+  display: block;
+    background-color: hsl(161, 50%, 23%);
+    padding: .50px;
+    text-align: center;
+    color: white;
+  
+          
+}
+    h1 {
+        font-size: 30px;
+        font-weight: lighter;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        
+    
+    }
+
+    h2 {
+        font-size: 20px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight:lighter;
+        margin-left: 20px;
+       
+    }
+body {
+    
+  background-color:white;
+  display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px; 
+    max-width: 750px;
+    margin: auto;
+    display: block;
+    
+}
+ul {
+   font-size: 18px;
+     
+}
+
+hr {
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.profileimg {
+    width: 180px;
+}
+
+a {
+  color: lightblue;
+
+}
