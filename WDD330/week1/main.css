@@ -2,17 +2,12 @@
 
 /*font-family: 'Lora', serif;*/
 
-html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
 /*----------- BODY ALL --------------*/
 
 body {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 17px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -50,12 +45,12 @@ header a:hover {
   text-decoration: underline;
 }
 hr {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10px;
 }
+
 li {
   list-style: none;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 nav ul li a {
@@ -71,9 +66,14 @@ main {
   padding: 10px;
 }
 
-h2,
+h2 {
+  margin-left: 15px;
+  margin-bottom: 50px;
+  margin-top: -5px;
+}
+
 p {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 a:link {
@@ -90,9 +90,8 @@ a:hover {
 
 article {
   background-color: white;
-  margin: 10px;
-  margin-top: 20px;
-  padding: 15px;
+  margin: 30px 10px 30px 10px;
+  padding: 25px;
   box-shadow: #ccc 3px 3px 3px;
 }
 
@@ -125,7 +124,7 @@ article img {
 }
 
 .post-date {
-  margin: 10px;
+  margin: 15px;
   color: #999;
 }
 
@@ -135,20 +134,27 @@ img {
   margin-top: 30px;
 }
 
+/*----------- LARGE SCREEN --------------*/
+
 @media screen and (min-width: 700px) {
   body div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: 0 20px;
+    font-size: 13px;
   }
 
   header {
     grid-column: 2/2;
+    margin-left: 95px;
   }
   main {
     grid-column: 3/5;
   }
   header ul li {
-    font-size: 15px;
+    font-size: 11px;
+  }
+
+  article {
+    margin: 40px;
   }
 }
