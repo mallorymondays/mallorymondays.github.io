@@ -2,10 +2,21 @@
 
 /*font-family: 'Lora', serif;*/
 
-* {
+// variables
+$base:#faebd7;
+$accent:#6495ed;
+$active:#deb887;
+
+//mixin
+
+@mixin border(){
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+* {
+  @include border;
 }
 
 /*----------- BODY ALL --------------*/
@@ -19,18 +30,7 @@ body {
 
 /*----------- HEADER ALL --------------*/
 
-// variables
-$base:#faebd7;
-$accent:#6495ed;
-$active:#deb887;
 
-//mixin
-
-@mixin border(){
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 
 h1,
