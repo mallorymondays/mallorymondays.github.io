@@ -16,7 +16,7 @@ $active:#deb887;
 }
 
 * {
-  @include border;
+  @include border();
 }
 
 /*----------- BODY ALL --------------*/
