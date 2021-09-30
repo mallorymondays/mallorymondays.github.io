@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+/*font-family: 'Lora', serif;*/
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*----------- BODY ALL --------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*----------- HEADER ALL --------------*/
+
+// variables
+$base:#faebd7;
+$accent:#6495ed;
+$active:#deb887;
+
+//mixin
+
+@mixin border(){
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", "Serif";
+}
+header {
+  background-color: $accent;
+  margin: 0;
+  padding: 30px;
+  text-align: right;
+  color: $base;
+
+  a:visited {
+    color: $base;
+  }
+  a:link {
+    text-decoration: none;
+    color: $base;
+  }
+  a:active {
+    color: $active;
+  }
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+
+hr {
+  margin-left: 10px;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+nav ul li a {
+  padding: 0;
+  text-decoration: none;
+}
+
+/*----------- MAIN ALL --------------*/
+
+main {
+  background-color: $base;
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  margin-left: 15px;
+  margin-bottom: 50px;
+  margin-top: -5px;
+}
+
+p {
+  margin-left: 15px;
+}
+
+a:link {
+  color: $accent;
+  text-decoration: none;
+}
+a:visited {
+  color: $accent;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+article {
+  background-color: white;
+  margin: 30px 10px 30px 10px;
+  padding: 25px;
+  box-shadow: #ccc 3px 3px 3px;
+
+  figure {
+    margin: 0 auto;
+    text-align: center;
+  }
+  img {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+ 
+
+.post-content h2 a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.post-content h2 a:active {
+  color: $active;
+  text-decoration: none;
+}
+.post-content h2 a:visited {
+  color: black;
+  text-decoration: none;
+}
+.post-content h2 a:hover {
+  color: $accent;
+  text-decoration: underline;
+}
+
+.post-date {
+  margin: 15px;
+  color: #999;
+}
+
+img {
+  text-align: center;
+  width: 90%;
+  margin-top: 30px;
+}
+
+/*----------- LARGE SCREEN --------------*/
+
+@media screen and (min-width: 700px) {
+  body div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: 13px;
+  }
+
+  header {
+    grid-column: 2/2;
+    margin-left: 95px;
+
+    ul li {
+      font-size: 11px;
+    }
+  }
+  
+  main {
+    grid-column: 3/5;
+  }
+
+  article {
+    margin: 40px;
+  }
+}
