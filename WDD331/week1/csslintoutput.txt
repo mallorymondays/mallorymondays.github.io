@@ -1,0 +1,41 @@
+
+main.css
+   3:3   ×  Expected whitespace after "/*"                                               comment-whitespace-inside                    
+   3:29  ×  Expected whitespace before "*/"                                              comment-whitespace-inside                    
+   5:3   ×  Expected whitespace after "/*"                                               comment-whitespace-inside                    
+   5:37  ×  Expected whitespace before "*/"                                              comment-whitespace-inside                    
+  14:3   ×  Expected whitespace after "/*"                                               comment-whitespace-inside                    
+  14:39  ×  Expected whitespace before "*/"                                              comment-whitespace-inside                    
+  22:24  ×  Unexpected missing generic font family                                       font-family-no-missing-generic-family-keyword
+  24:1   ×  Expected empty line before rule                                              rule-empty-line-before                       
+  35:1   ×  Expected empty line before rule                                              rule-empty-line-before                       
+  43:1   ×  Expected empty line before rule                                              rule-empty-line-before                       
+  47:1   ×  Expected empty line before rule                                              rule-empty-line-before                       
+  56:1   ×  Expected selector "nav ul li a" to come before selector "header a:visited"   no-descending-specificity                    
+  56:1   ×  Expected selector "nav ul li a" to come before selector "header a:link"      no-descending-specificity                    
+  56:1   ×  Expected selector "nav ul li a" to come before selector "header a:active"    no-descending-specificity                    
+  56:1   ×  Expected selector "nav ul li a" to come before selector "header a:hover"     no-descending-specificity                    
+  61:3   ×  Expected whitespace after "/*"                                               comment-whitespace-inside                    
+  61:37  ×  Expected whitespace before "*/"                                              comment-whitespace-inside                    
+  79:1   ×  Expected selector "a:link" to come before selector "header a:visited"        no-descending-specificity                    
+  79:1   ×  Expected selector "a:link" to come before selector "header a:link"           no-descending-specificity                    
+  79:1   ×  Expected selector "a:link" to come before selector "header a:active"         no-descending-specificity                    
+  79:1   ×  Expected selector "a:link" to come before selector "header a:hover"          no-descending-specificity                    
+  83:1   ×  Expected selector "a:visited" to come before selector "header a:visited"     no-descending-specificity                    
+  83:1   ×  Expected selector "a:visited" to come before selector "header a:link"        no-descending-specificity                    
+  83:1   ×  Expected selector "a:visited" to come before selector "header a:active"      no-descending-specificity                    
+  83:1   ×  Expected selector "a:visited" to come before selector "header a:hover"       no-descending-specificity                    
+  83:1   ×  Expected empty line before rule                                              rule-empty-line-before                       
+  87:1   ×  Expected selector "a:hover" to come before selector "header a:visited"       no-descending-specificity                    
+  87:1   ×  Expected selector "a:hover" to come before selector "header a:link"          no-descending-specificity                    
+  87:1   ×  Expected selector "a:hover" to come before selector "header a:active"        no-descending-specificity                    
+  87:1   ×  Expected selector "a:hover" to come before selector "header a:hover"         no-descending-specificity                    
+  87:1   ×  Expected empty line before rule                                              rule-empty-line-before                       
+ 117:1   ×  Expected empty line before rule                                              rule-empty-line-before                       
+ 121:1   ×  Expected empty line before rule                                              rule-empty-line-before                       
+ 131:1   ×  Expected selector "img" to come before selector "article img"                no-descending-specificity                    
+ 137:3   ×  Expected whitespace after "/*"                                               comment-whitespace-inside                    
+ 137:41  ×  Expected whitespace before "*/"                                              comment-whitespace-inside                    
+ 150:3   ×  Expected empty line before rule                                              rule-empty-line-before                       
+ 153:3   ×  Expected empty line before rule                                              rule-empty-line-before
+
