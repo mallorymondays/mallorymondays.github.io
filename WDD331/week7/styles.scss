@@ -1,5 +1,5 @@
 //variables to setup basic size and shape of the card and pips
-$card-width: 40vw;
+$card-width: 10vw;
 $card-height: $card-width*1.4;
 $font-size-number: $card-width * 0.1;
 $icon-size: $card-width / 5;
@@ -26,6 +26,8 @@ $icon-size: $card-width / 5;
 .card-front {
     padding: .5em;
 }
+
+
 
 
 //set icon size
